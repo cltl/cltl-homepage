@@ -1,0 +1,119 @@
+{% extends "index.html" %}
+
+{% block main %}
+
+<style>
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
+
+
+
+    {#    <div>#}
+{#  <p><figure style="float:left;min-width: fit-content;"><img src="{{ url_for('static', filename='cltl_header.png') }}" alt="CLTL" style="float:left;min-width: fit-content;"></figure>#}
+{#</div>#}
+
+
+<h3>Computational Linguistics & Text Mining Lab</h3>
+
+
+<div>
+
+    <p>
+        The Computational Linguistics and Text Mining Lab (CLTL) is lead by <a href="{{ url_for('people') }}#staff">Prof. Dr. Piek Vossen</a> and
+        <a href="{{ url_for('people') }}#staff">Prof. Dr. Antske Fokkens</a>. CLTL is part of the <a href="https://vu.nl/en/about-vu/faculties/faculty-of-humanities/departments/language-literature-and-communication" target="_blank">Department of Language, Literature and
+        Communication</a> of the <a href="https://vu.nl/en/about-vu/faculties/faculty-of-humanities" target="_blank"> Faculty of Humanities</a> of the <a href="https://vu.nl/en" target="_blank">Vrije Universiteit Amsterdam</a>, and of
+        the <a href="https://networkinstitute.org/" target="_blank">Network Institute</a>.
+
+    <h5>Who are we?</h5>
+    <figure style="float:right;margin-top: 10px;"><img src="{{ url_for('static', filename='classroom_piek.jpg') }}"  height="200" style="float:right; margin-left: 15px;"></figure>
+
+    <p>
+        We are researchers that love <i><b>language</b></i> and love <i><b>technology</b></i>.
+        Now that <b>Large Language Models</b> form the heart of AI, our research and teaching has a strong focus on
+        studying, building and using Large Language Models.  What do these models actually model? What can they do and
+        what cannot they do? How to tackle well-known issues such as hallucination and bias? How to make them
+        transparent and responsible? How are hundreds of languages combined in a single crosslingual model? For many
+        people, Large Language Models are mysterious black boxes. At CLTL we try to shed some light on them.
+    </p>
+
+    <p>
+        Many of these questions are at the center of our research but also explained and discussed in our teaching.
+        Our students learn to build Language Models, study them thoroughly and also train them for various tasks
+        ranging from sentiment and emotion detection, named entity recognition, event extraction to specific medical
+        applications.
+    </p>
+
+    <p>
+        We see language as a reference system that connects people and systems to their perception
+        of the world. Identity, reference and perspectives are central themes in our research
+        and are studied in combination. In our research on conversational Robots, many of our
+        ideas come together: http://makerobotstalk.nl In this project, we try to build robots
+        that communicate with people in real-world situations taking perception of the contexts
+        into account and shared common ground.
+    </p>
+
+
+    <h5>What we teach you as a student</h5>
+
+    <p>
+        With our strong research background, CLTL prepares students for academic careers in Computational
+        Linguistics and AI, evidenced by many of our students that continue their passion as PhDs in the
+        field. Other students find their way in industry, start-ups and larger organisations or government
+        as our master provides you with all the skills to apply technology built with Large Language Models.
+        If you are interested to study with us and become ready for the job market with your language
+        technology and AI skills, check out our teaching programmes: research and text mining.
+    </p>
+
+
+    <p>
+        Many of our students started with a background in linguistics only but within a year they
+        learned to use their skills and knowledge to analyse language as data. Other students have a
+        technical or AI background but want to specialise in Large Language Models and language
+        applications such as conversational AI. These students get a deeper understanding of language
+        as data and what Language Models really are. Follow this link for examples of our student
+        projects to see what they did and what you can learn to do as well.
+    </p>
+
+    <h5>Our products</h5>
+
+    <p>
+        CLTL has created a wide range of Natural Language Processing software and resources, including
+        Large Language Models on  https://huggingface.co/CLTL. All our software is open source and can
+        be accessed through our Github repository. An overview of our language resources: annotated
+        corpora and lexicons, can be found here. Well-known examples are the Open Dutch Wordnet and
+        Framenet as important lexical resources for Dutch.
+    </p>
+
+
+    <p>
+        Our research not only targets Dutch and English as a language but also other languages in the
+        world. An important project is the Global Wordnet Association and the building of the Global
+        Wordnet Grid: this project aims at representing many vocabularies of languages as semantic
+        networks or wordnets and combining them through a universal index of meaning. Building and
+        studying this grid will tell us more about universalities and idiosyncrasies of languages
+        and likewise about the roles and functions of words and expressions.
+    </p>
+
+    <p>
+        Video explaining  5 years of research in the Spinoza-projects “Understanding Language
+        by Machines“, 2019 <br>
+
+        Video explaining NewsReader‘s Reading Machine — Example of one of CLTL’s projects Lecture
+        (in Dutch) Prof. dr. Piek Vossen at Paradiso Amsterdam: ‘To Communicate with an Imperfect
+        Robot — Get It?’ March 25, 2018
+    </p>
+
+
+    <p>
+    </p>
+
+    <p>
+    </p>
+
+    <p>
+    </p>
+</div>
+{% endblock %}

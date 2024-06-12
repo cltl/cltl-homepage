@@ -1,0 +1,71 @@
+span.nospace {
+    letter-spacing: -18px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+    font-size: 90%;
+    /* Margin bottom by footer height */
+    margin-bottom: 40px;
+    a {
+        color:#0077B3;
+    };
+    a: hover{
+        color:#0077B3;
+    };
+    a:active{
+        color:#0077B3;
+    };
+    a:visited{
+        color:#0077B3;
+    };
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  line-height: 40px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 30px 100px 0;
+}
+
+.footer > .container {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+/* Make the <pre> tag look nice */
+pre{
+    display: block;
+    font-family: monospace;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+};

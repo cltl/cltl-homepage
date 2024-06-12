@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+<a id="top"></a>
+
+{% block main %}
+
+<hr>
+<a id="pubs"></a>
+<h2>Peer Reviewed Publications</h2><br>
+<div id="bibtex_display">{{publications|safe}}</div>
+<p class="text-right"><a href="{{ url_for('static', filename='mybib.bib') }}"><sub>(mybib.bib)</sub></a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#top"><sub>back to top <i class="fa fa-level-up" aria-hidden="true"></i></sub></a></p>
+
+
+
+
+<p class="text-right"><a href="#top"><sub>back to top <i class="fa fa-level-up" aria-hidden="true"></i></sub></a></p>
+
+{% endblock %}

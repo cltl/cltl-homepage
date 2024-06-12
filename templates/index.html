@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="CLTL Staff">
+    <link rel="icon" href="">
+
+    <title>CLTL</title>
+
+    <!-- Font Awesome CSS -->
+{#    <!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">-->#}
+{#    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">#}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='vu-home.css') }}" rel="stylesheet">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    
+
+  </head>
+  <body>
+
+    <header>
+    <nav class="navbar navbar-expand-md navbar-dark " style="background-color: #0077B3;">
+      <a class="navbar-brand" href="{{ url_for('home') }}">CLTL</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ url_for('home') }}">Home</a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ url_for('people') }}">People</a>
+          </li>
+
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="dropdown-cv" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research </a>
+            <div class="dropdown-menu" aria-labelledby="dropdown-cv">
+              <a class="dropdown-item" href="{{ url_for('research_overview') }}">Overview</a>
+              <a class="dropdown-item" href="{{ url_for('projs_current') }}">Current Projects</a>
+              <a class="dropdown-item" href="{{ url_for('projs_completed') }}">Completed Projects</a>
+              <a class="dropdown-item" href="{{ url_for('research_centres') }}">Centres and Associations</a>
+            </div>
+          </li>
+
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="dropdown-education" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Education</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown-education">
+              <a class="dropdown-item" href="{{ url_for('education_overview') }}">Overview</a>
+              <a class="dropdown-item" href="{{ url_for('education_ma_hlt') }}">Master Human Language Technology</a>
+              <a class="dropdown-item" href="{{ url_for('education_ma_tm') }}">Master Text Mining</a>
+              <a class="dropdown-item" href="{{ url_for('education_other_courses') }}">Courses in Other Programs</a>
+              <a class="dropdown-item" href="{{ url_for('education_internships') }}">Internships</a>
+              <a class="dropdown-item" href="{{ url_for('education_theses') }}">Master Theses</a>
+            </div>
+          </li>
+
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="dropdown-projs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown-projs">
+              <a class="dropdown-item" href="{{ url_for('publications2') }}">All Publications</a>
+              <a class="dropdown-item" href="{{ url_for('publication_requirements') }}">Publication Requirements</a>
+            </div>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ url_for('resources') }}">Resources</a>
+          </li>
+
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="dropdown-projs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown-projs">
+              <a class="dropdown-item" href="{{ url_for('news_current') }}">Current News</a>
+              <a class="dropdown-item" href="{{ url_for('news_archived') }}">Archived News</a>
+            </div>
+          </li>
+
+
+	</ul>
+      </div>
+    </nav>
+    </header>
+
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+        <div>
+            <figure><img src="{{ url_for('static', filename='cltl_header.png') }}" alt="CLTL" style="width: 100%;"></figure>
+        </div>
+        <div class="alert alert-warning" role="alert">
+        This website is currently under live construction! For now, you probably should go here: <a href="http://www.cltl.nl/">http://www.cltl.nl/</a>
+        </div>
+        <br>
+      {% block main %}{% endblock %} 
+    </main>
+    <br>
+    <footer class="footer" style="background-color: #0077B3;">
+      <div class="container">
+        <span class="text-white">
+	        <a class="text-white" href="https://github.com/cltl"><i class="fa-brands fa-square-github"></i></a>&nbsp;&nbsp;
+	        <a class="text-white" href="https://x.com/cltlvu"><i class="fa-brands fa-square-x-twitter"></i></a>&nbsp;&nbsp;
+	        <a class="text-white"  href="https://bitbucket.org/cltl/workspace/repositories/"><i class="fa-brands fa-bitbucket"></i></a>&nbsp;&nbsp;
+
+
+        </span>
+      </div>
+    </footer>
+
+    
+  </body>
+</html>
