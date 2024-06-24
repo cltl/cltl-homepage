@@ -13,17 +13,19 @@ div {
 <h3>Master Human Language Technology</h3>
 
 
-<div>
 
+<div>
     <!-- Strong text are links that need to be converted to URL links-->
 
-    <h5>Human Language Technology is a track in the two-year Humanities Research Master in Linguistics at VU Amsterdam by CLTL.</h5>
+    <b>Human Language Technology is a track in the two-year <a href="https://vu.nl/en/education/master/humanities-research-linguistics" target=”_blank”>Humanities Research Master in Linguistics </a> at VU Amsterdam by CLTL.</b>
 
     <p>
-        Read more about the <strong>application procedure</strong> and do not hesitate to contact our program coordinator Hennie
-        van der Vliet <strong>(h.d.vander.vliet [at] vu.nl)</strong>  if you have any questions.
-
-
+        Read more about the <a href="https://vu.nl/en/education/more-about/application-documents-master" target=”_blank”>application procedure</a> and do not hesitate to contact our program coordinator Hennie
+        van der Vliet <strong>(h.d.vander.vliet [at] vu.nl)</strong>  if you have any questions. You might also be interested in our<a href="{{ url_for('education_ma_tm') }}"> Master in Text Mining</a>.
+    </p>
+        <div>
+            <figure><img src="{{ url_for('static', filename='img/hltl_banner.jpeg') }}" alt="HLT Banner" style="width: 100%;"></figure>
+        </div>
 
          <!--"Have to add the program time table-->
     <p>
@@ -35,20 +37,25 @@ div {
         (e.g. search engines) and of relevant linguistic theories. Students finish the program by carrying our research
         for a final thesis project. Such a project can either be carried out with a company our be embedded in ongoing
         research at our lab. If you are interested in what kinds of projects our students carry out at the end of their
-        studies, please have a look at <strong>completed and ongoing theses projects</strong> and browse the list of
-        available <strong>thesis topics.</strong>
+        studies, please have a look at <a href="{{ url_for('projs_completed') }}">completed and ongoing theses projects</a> and browse the list of
+        available <a href="{{ url_for('education_theses') }}">thesis topics.</a>
     </p>
 
     <p>
         The two-year program can be seen here:
     </p>
 
-    <p>
-        WHY STUDY AT VU AMSTERDAM?
+         <div class="text-center">
+            <figure><img src="{{ url_for('static', filename='img/hlt_program.png') }}" alt="HLT Program" style="width: 80%;"></figure>
+        </div>
+
+
+    <h5>Why Study At VU Amsterdam?</h5>
+
         <ul>
             <li> The Computational Lexicology and Terminology Lab (CLTL) is one of the world’s leading research institutes in
                 Human Language technology.</li>
-            <li> <strong>Prof. Dr. Piek Vossen</strong>, recipient of the <strong>NWO Spinoza Prize</strong>, heads the group of international
+            <li> <a href="https://vossen.info" target="_blank">Prof. Dr. Piek Vossen</a>, recipient of the <a href="http://www.understandinglanguagebymachines.org/about/nwo-spinoza-prize/" target=”_blank”>NWO Spinoza Prize</a>, heads the group of international
                 researchers that are working on interdisciplinary projects, including the Spinoza project ‘Understanding Language by Machines’.</li>
             <li> Become part of an international group of researchers at Vrije Universiteit Amsterdam!</li>
         </ul>
