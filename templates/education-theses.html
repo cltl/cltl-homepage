@@ -16,17 +16,196 @@ div {
 <div>
 
     <p>
-        ...
+        We offer a wide variety of research topics for Master theses Text Mining and Human Language Technology, both with
+        or without internships centered around language and technology. We provide an overview with suggestions on theses below.
     </p>
-
-    <h5>...</h5>
+    <p>
+        You can find examples of thesis projects of recent and soon to be graduates from the Research Master’s in Human Language
+        Technology and the Master’s in Text Mining here.
+    </p>
+    <p>
+        Feel free to contact us for more information on these and other possible topics.<strong>Theses can be written and supervised in English or Dutch
+        (depending on the topic and preference)</strong> Primary contact: <a href="{{ url_for('people') }}">Dr. Hennie van der Vliet</a>.
+    </p>
 
     <p>
-        ...
+        More Information:
+    </p>
+
+    <ul>
+        <li><a href="#generalinfo">General Information</a></li>
+        <li><a href="#nlp">Topics focusing on Natural Language Processing</a></li>
+        <li><a href="#llr">Topics focusing on Linguistics and Language Resources</a></li>
+        <li><a href="#krr">Topics focusing on Knowledge Representation and Reasoning</a></li>
+        <li><a href="#dh">Topics focusing on Digital Humanities (and Social Sciences)</a></li>
+    </ul>
+
+    <h5>
+        <a name="generalinfo"></a>General
+    </h5>
+
+    <p>
+        CLTL is the Computational Lexicology and Terminology Lab, headed by Piek Vossen. We study computational linguistics
+        or natural language processing (NLP). We are interested in how language works and how we can analyse it using computers.
+        We work on <strong>automatically getting knowledge from text</strong>. This is becoming more and more popular, as all the large technology
+        companies (e.g. Google, IBM, Microsoft and Facebook) are investing in <strong>big data</strong> and <strong>language technology</strong>.
+        At the same time, natural language processing is one of the core aspects of <strong>digital humanities</strong> research. We are collaborating with literature,
+        history and social science researchers to explore the potential of NLP tools in their line of work, automatically analysing
+        thousands of documents.Just imagine what you can do with all that data!
     </p>
 
     <p>
-        ...
+        Computational Linguistics operates on the interface between computer science and linguistics. We have topics that require different
+        levels of technical skill as well as different levels of linguistic knowledge. Feel free to come and have a chat if any of the topics
+        below seem appealing to you.
     </p>
+
+    <h5>
+        <a name="nlp"></a>Topics focusing on Natural Language Processing
+    </h5>
+
+    <p>
+        How does automatic text analysis work? Which tools are available and what can they do? Do they deliver what they promise on new text?
+        Can the results of the state-of-the-art be replicated? How can existing technology be improved?
+    </p>
+
+    <p>
+        We work on several technologies that can be adapted for a domain or Dutch, or simply tested and improved. Topics with NLP focus are mainly
+        interesting for people with a strong technical background and programming skills, but it is also possible to study the outcome of tools and
+        analyze what mistakes they make and why.
+    </p>
+
+    <ul>
+        <li>
+            <strong>Provide Dutch language support to TermSuite</strong> (<a href="https://termsuite.github.io/" target="_blank">http://termsuite.github.io/</a>).
+            Termsuite is an open source term extraction tool that is very useful if you want to extract keywords from a text. It supports multiple languages, but so
+            far there is no support for Dutch yet. We do have all the resources that are necessary to add Dutch language support, but they need a little tweaking.
+        </li>
+        <li>
+            <strong>Improve the state-of-the-art for Dutch language technology</strong>. At the 25th edition of the Computational Linguistics In the Netherlands (CLIN) conference,
+            we ran the first shared task for Dutch, where several teams of computational linguists tried to see which tools are the best at annotating texts. Next year
+            there will be another shared task. Could you win the competition?
+        </li>
+        <li>
+            Event recognition and relations between events What happened? What caused this? Which events make up the story that is told in news or other data? Our group
+            develops state-of-the-art software for event recognition and disambiguation. Possible topics include:
+        </li>
+        <ul>
+            <li>Search for stories in a large structured database of events extracted from text.</li>
+            <li>In what ways do different sources refer to the same event? What variations can be observed?</li>
+            <li>Event extraction from large data repository: being able to identify what happened (and who are the participants) is not an easy task.
+                Supervised methods have provided good results but also show limits. This project aims at investigating unsupervised methods for event extraction
+                and classification (the types of events) using unsupervised or semi-supervised methods.</li>
+            <li>Temporal Relation Processing: being able to anchor and order in time events (and their participants) is the first step developing more robust NLP systems
+                for information extraction, question answering, and summarisation, among others. The goal of this project is to develop systems which are able to anchor
+                and order events in time, thus providing the users with what is called a timeline of events. Different datasets are available both for single document and
+                cross-document temporal processing, and in different domains (news and clinical data). Extensions to existing annotated data are encouraged as strategies to
+                overcome current limits of current state-of-the art systems.</li>
+            <li>Storyline Extraction: this project aims at extracting stories from large collections of news clustered per topic and spanning over a time period. The main
+                research questions are: 1) are there patterns in which news stories about an event are reported? (e.g. is there a narrative pattern to report on natural disasters?
+                is the way natural distress are reported different from man-made disasters?); 2) in which ways are events connected together so as to form a coherent story?;
+                3) given a collection of documents on a certain topic and spanning over a period of time, how can we identify the most important events or rank events with respect
+                to their salience?</li>
+            <li>Content Types Extraction: different types of information is expressed in a document. For instance, in a news article you can find both portions of the document reporting
+                on things that happened (i.e. a narration) and opinions and comments (i.e. argumentations). The goal of this project is to develop systems which can detect the content types
+                expressed in documents, such as novels (fictional and non-fictional), news articles, and other text genres, and then use this information to improve the performance of NLP for
+                high-level semantic tasks (e.g. temporal relation extraction, sentiment analysis, entity typing, among others).</li>
+        </ul>
+        <li><strong>Sentiment analysis</strong> What opinions do people have and how do they express them? How does this change from one domain (e.g. hotel reviews) to another (e.g. news articles)?
+            See also the more detailed description under topics focusing on linguistics and language resources.</li>
+        <li><strong>(Domain-specific) Entity Linking</strong> Which entities (people, organisations, locations, etc.) are mentioned in text? Are they popular enough to be described in Wikipedia? If not,
+            can we build a profile based on the information from text? What knowledge is needed to link these entities to their representation on Wikipedia (or other knowledge base) correctly?
+            Does the type of knowledge vary per topic and time? How to acquire knowledge in a given domain, e.g. historical texts?</li>
+    </ul>
+
+    <h5>
+        <a name="llr"></a>Topics focusing on Linguistics and Language Resources
+    </h5>
+
+    <p>
+        How does language work and how can we model it in such a way that a computer can work with it? But also: what does computational linguistics have to offer to linguists (verifying theories through
+        implementation or corpus study).
+    </p>
+    <p>
+        Topics in this area are interesting for both people with strong linguistic background as well as people who like to build interfaces and resources.
+    </p>
+
+    <ul>
+        <li><strong>Open Source Wordnet</strong>. we are building a wordnet database for Dutch that is open source and can be downloaded for free.
+            A wordnet is a semantic network with all the words of a language connected through semantic relations. This database is
+            derived from various sources. Each wordnet groups word meanings in different ways and the open source wordnet combines structures
+            of both the English and the original Dutch wordnet. We need help from students to study the existing wordnet structures in English
+            and Dutch and to evaluate the fit of the open source wordnet to both.</li>
+        <li><strong>A Dutch FrameNet</strong>: our group built the Referentie Bestand Nederlands (RBN). It has rich information about the combinatorics of words
+            in particular meanings. For example “behandelen” can refer to social interaction or medical treatment. Only in the latter meaning we say
+            “behandelen aan iets”. The combinatorics in RBN are represented in various ways. At this very moment, our group is building a Dutch Frame Net,
+            in cooperation with Groningen University. We can think of many possibilities for theses on this project. One of them is   finding out how the
+            RBN-entries match the FrameNet structure that was developed for English at Berkeley and how well FrameNet can be mapped to our Dutch words and meanings.</li>
+        <li><strong>Sentiment analysis</strong>: we develop software to do automatic sentiment analysis of text in English, Dutch and German. Sentiment analysis is done at a topic level.
+            That means, we extract the opinion holder, the opinion expression and the target of the opinion. This technology is tested in various domains: tourism, politics,
+            product reviews, news. Deeper sentiment analysis can be used to find opinions and positions of individuals but also for groups of people. Students can work on various aspects:</li>
+        <ul>
+            <li>Annotation of opinionated text, how detailed can opinions be described consistently by humans and how well do computers learn from this annotation?</li>
+            <li>Can sentiment and opinion analysis be used to obtain information on overall opinions and positions of groups in society or can it be used to track changes over time?</li>
+            <li>Are sentiments expressed differently across genres and what is the impact of genre on sentiment analysis systems?</li>
+            <li>What is the quality of current sentiment lexica? What can they do and where do they fail?</li>
+        </ul>
+    </ul>
+
+    <h5>
+        <a name="krr"></a>Topics focusing on Knowledge Representation and Reasoning
+    </h5>
+
+    <p>
+        We have various projects where we mine text, extract information and represent this formally using <a href="https://www.w3.org/RDF/" target="_blank">RDF</a>. This allows us to link information extracted
+        from text to other resources and it allows end-users to query the data we extract. Research related to these topics involve ontology design and evaluation as well
+        as evaluating and improving the results of our NLP analyses.
+    </p>
+
+    <p>
+        These topics are mainly interesting for students with some background in data representation. Topics with a higher or lower technical component can be found.
+    </p>
+
+    <p>Research topics in this area include:</p>
+
+    <ul>
+        <li>Ontology design: what definitions are needed to represent relevant information? How well do the ontologies we currently use work? What can they do and what not?</li>
+        <li>Data analysis of the output of NLP analyses:</li>
+        <ul>
+            <li>What patterns do you observe in the data? E.g. which events occur with the same entities? What stories can be found in the data?</li>
+            <li>What is the quality of the extracted data? What are common errors? How can you track them?</li>
+        </ul>
+    </ul>
+
+    <h5>
+        <a name="dh"></a>Topics focusing on Digital Humanities (and Social Sciences)
+    </h5>
+
+    <p>
+        There are many digitized resources that are relevant for researchers in the humanities. We have various projects where
+        we apply NLP technologies to automatically analyze text. The output of these analyses can be used by historians, specialists in language and literature,
+        philosophers, communication scientist, sociologists and many others.
+    </p>
+
+    <p>
+        Topics in this area can be of interest to students of various backgrounds: people with a strong background in computer science or linguistics and who are
+        interested in other domains of the humanities or social sciences can work on a topic where they use their expertise to support researchers in these various fields.
+        Students with a background in other fields of the humanities or social sciences who are interested in text analysis can work on a topic where they investigate what NLP has to offer them.
+    </p>
+
+    <p>Here are a few examples of possible projects in this domain:</p>
+
+    <ul>
+        <li>Analyzing politics using N-grams. Build an N-gram viewer, similar to <a href="https://projects.fivethirtyeight.com/reddit-ngram/" target="_blank">https://projects.fivethirtyeight.com/reddit-ngram/</a>, for Dutch political debates.
+            What are the trends in language used by politicians?</li>
+        <li>Mining historical figures. In the <a href="https://www.domainname.de/sale/biographynet.nl" target="_blank">BiographyNet</a> project, we analyze biographical descriptions using NLP tools. We have approximately 80,000 biographies from various sources.
+            Several research questions can be addressed from basic question (what properties do people who are included share?) up to highly complex (how does the perspective on specific people change over time?).
+            Research can be conducted on the output of the tools, on improving the tools for the domain or specific sources as well as overall methodological questions.</li>
+        <li>Identifying perspectives What opinions are expressed in text? How are specific events, people and organizations depicted? Can we identify biases in particular source
+            (e.g. can we spot differences between left-wing and right-wing papers?). We have several projects that look into perspectives in text, notably Spinoza project
+            <a href="http://www.understandinglanguagebymachines.org/storylines-and-perspectives/" target="_blank">ULM3 World views as a key to understanding language</a>,
+            AAA data science project QuPiD and the project <a href="http://wordpress.let.vupr.nl/antske/readingbetweenthelines/" target="_blank">Reading between the lines</a>.</li>
+    </ul>
+
 </div>
 {% endblock %}
