@@ -53,9 +53,9 @@ def projs_current():
 def projs_completed():
     return render_template('research-projs-completed.html')
 
-@app.route('/research-centres')
-def research_centres():
-    return render_template('research-centres-associations.html')
+@app.route('/research-partnerships')
+def research_partnerships():
+    return render_template('research-partnerships.html')
 
 @app.route('/education-overview')
 def education_overview():

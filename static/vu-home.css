@@ -15,7 +15,7 @@ body {
     a {
         color:#0077B3;
     };
-    a: hover{
+    a:hover{
         color:#0077B3;
     };
     a:active{
@@ -35,7 +35,12 @@ body {
   background-color: #f5f5f5;
 }
 
-
+navbar-nav {
+  background-color: #0077B3;
+  width: 60%;
+  position: relative;
+  left: 20%;
+}
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */

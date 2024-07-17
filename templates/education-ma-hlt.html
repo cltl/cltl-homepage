@@ -10,74 +10,36 @@ div {
 </style>
 
 
-<h3>Master Human Language Technology</h3>
+<h3>Research Master Human Language Technology</h3>
 
 
 
 <div>
-    <!-- Strong text are links that need to be converted to URL links-->
 
-    <b>Human Language Technology is a track in the two-year <a href="https://vu.nl/en/education/master/humanities-research-linguistics" target=”_blank”>Humanities Research Master in Linguistics </a> at VU Amsterdam by CLTL.</b>
-
-    <p>
-        Read more about the <a href="https://vu.nl/en/education/more-about/application-documents-master" target=”_blank”>application procedure</a> and do not hesitate to contact our program coordinator Hennie
-        van der Vliet <strong>(h.d.vander.vliet [at] vu.nl)</strong>  if you have any questions. You might also be interested in our<a href="{{ url_for('education_ma_tm') }}"> Master in Text Mining</a>.
-    </p>
         <div>
             <figure><img src="{{ url_for('static', filename='img/hltl_banner.jpeg') }}" alt="HLT Banner" style="width: 100%;"></figure>
         </div>
 
-         <!--"Have to add the program time table-->
     <p>
-        Human Language technology or Natural Language Processing is a rapidly developing research field.
-        In current Humanities research, a firm background in language technology is extremely valuable for
-        modelling Big (!) datasets. The Computational Lexicology and Terminology Lab (CLTL) offers a specialization
-        in the research master Humanities in which students are trained in human language technology and natural language
-        processing. A human language technology expert has knowledge of technology as used in computer applications
-        (e.g. search engines) and of relevant linguistic theories. Students finish the program by carrying our research
-        for a final thesis project. Such a project can either be carried out with a company our be embedded in ongoing
-        research at our lab. If you are interested in what kinds of projects our students carry out at the end of their
-        studies, please have a look at <a href="{{ url_for('projs_completed') }}">completed and ongoing theses projects</a> and browse the list of
-        available <a href="{{ url_for('education_theses') }}">thesis topics.</a>
+        Human Language technology is rapidly affecting society at large. 
+        In the Human Language Technology (HLT) track of the Research Master Linguistics, students from various 
+        backgrounds come together to study Machine Learning methods for Natural Language Processing in relation to
+        linguistics and the Humanities.
+    </p>
+        
+    <p>
+        Students finish the program by carrying out an internship in a company or in our research group
+        for their final thesis project. The CLTL actively looks for <a href="{{ url_for('research_partnerships') }}">partnering companies</a>
+        to provide internship topics. 
+        Past their internship, students often find a research position in their internship company or pursue a PhD position.
     </p>
 
-    <p>
-        The two-year program can be seen here:
-    </p>
+    <ul>
+        <li><a href="https://vu.nl/en/education/master/humanities-research-linguistics" target=”_blank”>Humanities Research: Linguistics</a>: more information on the program and studying at the Vrije Universiteit Amsterdam</li>
+        <li><a href="{{ url_for('education_theses') }}">Research Master Theses</a></li>
+    </ul>
 
-         <div class="text-center">
-            <figure><img src="{{ url_for('static', filename='img/hlt_program.png') }}" alt="HLT Program" style="width: 80%;"></figure>
-        </div>
-
-
-  <h5>Why Study At VU Amsterdam?</h5>
-
-        <ul>
-            <li> The Computational Lexicology and Terminology Lab (CLTL) is one of the world’s leading research institutes in
-                Human Language technology.</li>
-            <li> <a href="https://vossen.info" target="_blank">Prof. Dr. Piek Vossen</a>, recipient of the <a href="http://www.understandinglanguagebymachines.org/about/nwo-spinoza-prize/" target=”_blank”>NWO Spinoza Prize</a>, heads the group of international
-                researchers that are working on interdisciplinary projects, including the Spinoza project ‘Understanding Language by Machines’.</li>
-            <li> Become part of an international group of researchers at Vrije Universiteit Amsterdam!</li>
-        </ul>
-
-    <h5>Career Aspects</h5>
-
-    <p>
-        You can set up your own research direction as a PhD student or you can embark on a career at a research institute.
-        The industry provides many career opportunities, as there is a growing need for linguists with a technical background.
-        To prepare for your career, we offer the possibility of combining your thesis with an internship in a research institute
-        or at the language industry. If you would like to see what recent graduates are up to, please have a look at our
-        <strong>Graduates and Careers page.</strong>
-    </p>
-
-    <h5>Admission Requirements</h5>
-
-        <ul>
-            <li>Applicants must have a Bachelor’s degree in Linguistics, Artificial Intelligence or a comparable Bachelor programme,
-                with an average grade of minimally 7.5.</li>
-            <li>Applicants who do not meet the requirement(s) are also encouraged to apply, provided that they have a sound academic
-                background and a demonstrated interest in and knowledge of engineering and/or linguistics.</li>
-        </ul>
+    <p>Contact: <a href="{{ url_for('people') }}#hennie" target="_blank">Hennie van der Vliet</a></p>
 
 </div>
 {% endblock %}
