@@ -10,44 +10,50 @@ div {
 </style>
 
 
-<h3>Education Overview</h3>
+<h3>Education</h3>
 
-    <h5>What we teach you as a student</h5>
-
+<div>
+    <h5>Master programs</h5>
     <p>
         With our strong research background, CLTL prepares students for academic careers in Computational
         Linguistics and AI, evidenced by many of our students that continue their passion as PhDs in the
         field. Other students find their way in industry, start-ups and larger organisations or government
         as our master provides you with all the skills to apply technology built with Large Language Models.
-        If you are interested to study with us and become ready for the job market with your language
-        technology and AI skills, check out our teaching programmes: research and text mining.
+        Have a look at our <a href="{{ url_for('education_ma_hlt') }}">Research Master</a> 
+        and <a href="{{ url_for('education_ma_tm') }}">Text Mining</a> programs 
+        if you are interested in getting ready for the job market with your language technology and AI skills.
     </p>
 
 
-
+    <h5>Diversity and Multidisciplinarity</h5>
     <p>
         Many of our students started with a background in linguistics only but within a year they
         learned to use their skills and knowledge to analyse language as data. Other students have a
         technical or AI background but want to specialise in Large Language Models and language
         applications such as conversational AI. These students get a deeper understanding of language
-        as data and what Language Models really are. Follow this link for examples of our student
-        projects to see what they did and what you can learn to do as well.
+        as data and what Language Models really are.
+    See our <a href="{{ url_for('education_theses') }}">theses</a> for an overview of our internship topics.
     </p>
 
-<div>
 
+    <h5 id="internships">Connecting students and the job market</h5>
     <p>
-        ...
-    </p>
-
-    <h5>...</h5>
-
-    <p>
-        ...
-    </p>
-
-    <p>
-        ...
+        The CLTL actively engages in bringing together students and the job market. We invite companies
+        and academic institutions every year
+        to meet and present internship and thesis topics to our students. Recent contacts include among others
+    <a href="https://www.amberscript.com/">Amberscript</a>,
+    <a href="https://www.vumc.nl/research/overzicht/academische-werkplaats-arbeid-en-gezondheid/zorginnovatie.htm">the AUMC</a>,
+    <a href="https://www.bolesian.ai/">Bolesian</a>,
+    <a href="https://www.cbs.nl/en-gb">CBS</a>,
+    <a href="https://diginova.nl/">Diginova</a>,
+    <a href="https://researchcollaborations.elsevier.com/en/organisations/research-collaboration-unit">Elsevier</a>,
+    <a href="https://www.ibm.com/nl-en">IBM</a>,
+    <a href="https://mytomorrows.com/en">MyTomorrows</a>,
+    <a href="https://www.dnb.nl/">De Nederlandsche Bank</a>,
+    <a href="https://www.google.com/search?client=safari&rls=en&q=prolody&ie=UTF-8&oe=UTF-8">Prolody</a>,
+    <a href="https://reddata.nl/">Reddata</a>,
+    <a href="https://www.textmetrics.com/">TextMetrics</a> and
+    <a href="https://underlined.nl/">Underlined</a>.
     </p>
 </div>
 {% endblock %}

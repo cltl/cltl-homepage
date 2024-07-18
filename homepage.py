@@ -69,14 +69,6 @@ def education_ma_hlt():
 def education_ma_tm():
     return render_template('education-ma-tm.html')
 
-@app.route('/education-other-courses')
-def education_other_courses():
-    return render_template('education-other-courses.html')
-
-@app.route('/education-internships')
-def education_internships():
-    return render_template('education-internships.html')
-
 @app.route('/education-theses')
 def education_theses():
     return render_template('education-theses.html')
