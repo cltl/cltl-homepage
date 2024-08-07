@@ -10,23 +10,88 @@ div {
 </style>
 
 
-<h3>Publication Requirements</h3>
+<article id="post-155" class="post-155 page type-page status-publish hentry">
+		<header class="entry-header">
+            <h3>Publication Requirements</h3>
+        </header>
 
+    <div class="entry-content">
+        <p>At CLTL, we strive for sharing resources and software and making sure our research results are replicable. We therefore have the following guidelines. Principles 1. and 2. are required for any publication by a member of the CLTL group.</p>
 
-<div>
-
-    <p>
-        ...
-    </p>
-
-    <h5>...</h5>
-
-    <p>
-        ...
-    </p>
-
-    <p>
-        ...
-    </p>
-</div>
+        <h3>Principles</h3>
+        <ol>
+            <li>All publications are indicated on the CLTL website with a link to the actual publication (if permitted).</li>
+            <li>All published experiments must be replicable. For any experiment, the following should be stored and made accessible where possible:
+                <ul>
+                    <li>Your original research question and hypothesis</li>
+                    <li>Data</li>
+                    <li>Resources</li>
+                    <li>Software</li>
+                    <li>Results</li>
+                    <li>Readme with necessary instructions</li>
+                </ul>
+            </li>
+            <li>Ideally, the historic development of the experiment is also provided.
+                <ul>
+                    <li>Your research question and hypotheses may change during the course of your research. You should always be open about your original hypothesis, if your questions and hypotheses change, explain why.</li>
+                </ul>
+            </li>
+        </ol>
+    <h3>Recommended Workflow</h3>
+        <ol>
+            <li>Define your research question and hypothesis (or hypotheses). <strong>(obligatory)</strong></li>
+            <li>Before you start working on an experiment, create a directory in your favorite version control system that you can use to run your experiment. (recommended)</li>
+            <li>Setup the experiment in this directory, so that it contains all code, scripts and data created especially for the experiment and points clearly to all other code and resources you use. (recommended)</li>
+            <li>Add a file called \textit{notes.txt} where you briefly describe the steps you take, reasons for adapting code or rerunning the experiment. (recommended)</li>
+            <li>Check in your setup and results after each run. (recommended)</li>
+            <li>When you are done and have the results you’ll describe in a paper, publish the experiment carefully checking the points listed below. <strong>(obligatory)</strong></li>
+        </ol>
+    <h3>Publishing experiments</h3>
+    <p>For any published experiment, all materials required to repeat the experiment must be archived and, whenever possible, made accessible.</p>
+    <p>Software, resources and datasets can be stored at the <a href="https://github.com/cltl" target="_blank">CLTL github</a> and CLTL SciStor.</p>
+    <p>The following components are typically required to ensure replicability of an experiment. To be on the safe side, <strong>ask a colleague to carry out the experiment from scratch</strong> to verify if you have provided all components and described all steps clearly.</p>
+    <ul>
+        <li> Results
+            <ol>
+                <li> Don’t just provide the numbers, but <strong>provide the actual output of your system</strong> on the evaluation data. This allows other researchers to better compare their results to yours and identify errors if they fail to replicate your experiment.</li>
+            </ol>
+        </li>
+        <li> Data, software and other resources
+            <ol>
+                <li>Include both training and evaluation data.</li>
+                <li>Make sure you report <strong>the exact version</strong> of data, software and resources you use. Preferably using the version identifier from a version control system.</li>
+                <li>If you cannot point to a version from a version control system, you may want to include a copy of the resource or data while publishing the experiment (if permitted). Some researchers make minor corrections to software and resources without upgrading to a new version.</li>
+                <li>If you cannot make the resource you used available, make sure you <strong>document any changes</strong> you have made. Preferably provide a script so that researchers who have the data can create your version from the original.</li>
+                <li><strong>Provide documentation.</strong> At the very least, this should contain explanations of how to use your software or explain the structure of your data or resource.</li>
+                <li>No matter how certain you are that all people who’ll ever look at your documentation or code know your preferred language, make sure all comments, notes and documentation are in English.</li>
+            </ol>
+        </li>
+        <li>Experimental setup
+            <ul>
+                <li>Make sure you document the <strong>exact settings</strong> you used for running your experiment. If you use a script to call your programs with specific options, provide it. Also include any configuration files that you used for your experiment.</li>
+            </ul>
+        </li>
+    </ul>
+    <h3>Accessibility</h3>
+    <p>Unless project partners require otherwise, all software, data and resources developed at CLTL should be publicly available.<br>
+        We generally release software and resources under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache license</a>.</p>
+    <p>If you use data, software or resources you cannot make available: </p>
+    <ol>
+        <li>Make sure you clearly indicate what you used (including the version) and how one may gain access to it (e.g. where to get the license).</li>
+        <li>If you made any changes, make sure that anyone who has the original data/software/resource can recreate the version you used either by running a script you provide or by following a detailed description.</li>
+    </ol>
+    <h3>Historic development</h3>
+    <p>Our 8-page limited papers are typically too short to provide all experimental details. The steps that were taken to get to a final (reported) experiment can provide useful insights to other researchers and help prevent errors in your own experiment.</p>
+    <p>A full report of the historic development starts with the hypothesis that inspired the research, including a brief explanation of where you based your hypothesis on. It reports each step that was taken, including errors. </p>
+    <p>Ideally, there would be:</p>
+    <ul>
+        <li>A brief overview of how you got to your original research question and hypothesis (if applicable). You want to keep a record of your steps as soon as you start looking at, or playing with, data.</li>
+    <li>A version control system recording the experiment, starting with the earliest version including all intermediate results and trials.</li>
+    <li>A technical report including a description of decisions and their motivations, errors and their solutions and additional intermediate results.</li>
+    </ul>
+    <p>If you setup a version control system for your experiment when you begin working, it will be less work to publish the experiment once your done (and you’re probably dealing with deadline stress…).</p>
+<!-- AddThis Advanced Settings above via filter on the_content --><!-- AddThis Advanced Settings below via filter on the_content --><!-- AddThis Advanced Settings generic via filter on the_content -->					</div><!-- .entry-content -->
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article>
 {% endblock %}
