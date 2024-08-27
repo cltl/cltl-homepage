@@ -1,42 +1,115 @@
 {% extends "index.html" %}
-<a name="top"></a>
+<a id="top"></a>
+
 
 {% block main %}
-<a name="current"/>
+<a id="current"/>
 <h2>Current Projects</h2>
 <br>
 
+<div class="container">
+    <div id="accordion" class="accordion" >
+        <div class="card mb-0">
 
-<p><b>Rethinking News Recommender Systems (2020-2024)</b><br>
-...
-</p>
+            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-rethinking-news-algos" style="background-color: #eff6fa;">
+                <a class="card-title"> <b>Rethinking News Algorithms: Nudging Users Towards Diverse News Exposure</b> <br>2020-2024</a>
+            </div>
+            <div id="collapse-rethinking-news-algos" class="card-body collapse" data-parent="#accordion">
+                <p>Can we design news recommenders to <b>nudge users towards diverse consumption of topics and perspectives</b>? The growing role of news recommenders raises the question of how news diversity can be safeguarded in a digital news landscape. Many existing studies look at either <b>the supply diversity</b> of recommendations, or the effects of (decreased) <b>exposure diversity</b> on e.g. polarization and filter bubbles. Research on how users choose from the available supply is lacking, making it difficult to understand the relation between algorithm design and possible adverse effects on citizens.</p>
+                <p>We directly address the question of <i><b>how news recommender algorithms can be designed to optimize exposure diversity</b></i>. This innovative and interdisciplinary project builds on our extensive expertise on news diversity, news consumption behavior, text analysis and recommender design by providing: (WP1) a <b>normative framework</b> for assessing diversity; (WP2) a <b>language model</b> to automatically measure diversity; (WP3) a <b>model of news consumption choices</b> based on supply, presentation, and individual characteristics; and (WP4) a <b>concrete prototype</b> implementation of a recommender algorithm that optimizes exposure diversity, which will be <b>externally validated in a unique field experiment</b> with our media partners.</p>
+                <p>The project will <b>bridge the gap between differing understandings of news diversity</b> in computer science, communication science, and media law. This will increase our <b>understanding of contemporary news behavior</b>, yield <b>new language models</b> for identifying topics and perspectives, and offer <b>concrete considerations</b> for designing recommenders that optimize exposure diversity. Together with media companies and regulators we <b>turn these scientific insights into concrete recommendations</b>.</p>
+                <b>Team:</b>
+                 <ul>
+                     <li>Wouter van Atteveldt (VU)</li>
+                     <li>Antske Fokkens (VU)</li>
+                     <li>Natali Helberger (UvA)</li>
+                     <li>Marijn Sax (postdoc ethics UvA)</li>
+                     <li>Myrthe Reuver (PhD student Vomputational Linguistics VU)</li>
+                     <li>Nicolas Mattis (PhD student Communication Science)</li>
+                     <li>Sanne Vrijenhoek, (scientific programmer, UvA)</li>
+                </ul>
+                <b>In collaboration with:</b>
+                 <ul>
+                     <li>Suzan Verberne (U Leiden)</li>
+                     <li>Nava Tintarev (TU Delft)</li>
+                     <li>Johan Oomen (VU / B&G)</li>
+                     <li>Media partners: Beeld & Geluid; NPO; VPRO; RTL; SvdJ</li>
+                 </ul>
+                Website: <a href="https://www.nwo.nl/en/projects/406di19073" target="_blank">https://www.nwo.nl/en/projects/406di19073</a>
+            </div>
 
-<p><b>ALANI (2020-2024)</b><br>
-...
-</p>
+
+            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-alani" style="background-color: #eff6fa;">
+                <a class="card-title"> <b>ALANI</b> <br>2020-2024</a>
+            </div>
+            <div id="collapse-alani" class="card-body collapse" data-parent="#accordion">
+                <p>Can we design news recommenders to nudge users towards diverse consumption of topics and perspectives? The growing role of news recommenders raises the question of how news diversity can be safeguarded in a digital news landscape. Many existing studies look at either the supply diversity of recommendations, or the effects of (decreased) exposure diversity on e.g. polarization and filter bubbles. Research on how users choose from the available supply is lacking, making it difficult to understand the relation between algorithm design and possible adverse effects on citizens.</p>
+                <p>We directly address the question of how news recommender algorithms can be designed to optimize exposure diversity. This innovative and interdisciplinary project builds on our extensive expertise on news diversity, news consumption behavior, text analysis and recommender design by providing: (WP1) a normative framework for assessing diversity; (WP2) a language model to automatically measure diversity; (WP3) a model of news consumption choices based on supply, presentation, and individual characteristics; and (WP4) a concrete prototype implementation of a recommender algorithm that optimizes exposure diversity, which will be externally validated in a unique field experiment with our media partners.</p>
+                <p>The project will bridge the gap between differing understandings of news diversity in computer science, communication science, and media law. This will increase our understanding of contemporary news behavior, yield new language models for identifying topics and perspectives, and offer concrete considerations for designing recommenders that optimize exposure diversity. Together with media companies and regulators we turn these scientific insights into concrete recommendations.</p>
+                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </p>
+                Website: <a href="https://www.google.com" target="_blank">Test URL</a>
+            </div>
+
+            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-project3" style="background-color: #eff6fa;">
+                <a class="card-title"> <b>Understanding of Language by Machines</b> </a>
+            </div>
+            <div id="collapse-project3" class="collapse" data-parent="#accordion">
+                <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. samus labore sustainable VHS. </div>
+
+            </div>
+            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-project4" style="background-color: #eff6fa;">
+                <a class="card-title"> <b>Hybrid Intelligence</b> <br>2019-2029 </a>
+            </div>
+            <div id="collapse-project4" class="collapse" data-parent="#accordion">
+                <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. samus labore sustainable VHS. </div>
+            </div>
+
+            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-project5" style="background-color: #eff6fa;">
+                <a class="card-title"> <b>Make Robots Talk and Think</b> <br>2020-2024 </a>
+            </div>
+            <div id="collapse-project5" class="collapse" data-parent="#accordion">
+                <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. samus labore sustainable VHS. </div>
+            </div>
+
+            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-project6" style="background-color: #eff6fa;">
+                <a class="card-title"> <b>Robot Leolani (ULM5)</b> </a>
+            </div>
+            <div id="collapse-project6" class="collapse" data-parent="#accordion">
+                <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. samus labore sustainable VHS. </div>
+            </div>
+
+            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-project7" style="background-color: #eff6fa;">
+                <a class="card-title"> <b>Dutch Framenet</b> <br> 2019-2023 </a>
+            </div>
+            <div id="collapse-project7" class="collapse" data-parent="#accordion">
+                <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. samus labore sustainable VHS. </div>
+            </div>
+
+            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-project8" style="background-color: #eff6fa;"> {#Last one no border#}
+                <a class="card-title"> Item 3 </a>
+            </div>
+            <div id="collapse-project8" class="collapse" data-parent="#accordion">
+                <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. samus labore sustainable VHS. </div>
+            </div>
+
+             <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-project9" style="background-color: #eff6fa;"> {#Last one no border#}
+                <a class="card-title"> Item 3 </a>
+            </div>
+            <div id="collapse-project9" class="collapse" data-parent="#accordion">
+                <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. samus labore sustainable VHS. </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
-<p><b>Understanding of Language by Machines</b><br>
-...
-</p>
+    <br>
 
 
-<p><b>Hybrid Intelligence (2019-2029)</b><br>
-...
-</p>
 
 
-<p><b>Make Robots Talk and Think (2020-2024)</b><br>
-...
-</p>
 
-
-<p><b>Robot Leolani (ULM5)</b><br>
-...
-</p>
-
-
-<p><b>Dutch Framenet (2019-2023)</b><br>
+<p><b></b><br>
 ...
 </p>
 
