@@ -27,9 +27,10 @@ You should now be able to see the log on your terminal and access the page on yo
 http://127.0.0.1:5000
 
 ## Contributing to the website
-You can propose changes through pull requests (PR).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for general guidelines, and below for pull-request instructions.
 
-#### Setup
+## Making a pull request
+#### Setup 
 1. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository (https://github.com/cltl/cltl-homepage). This will create a `cltl-homepage` repository (so-called *fork*) under your account.
 2. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) your fork to work locally.
 ```
