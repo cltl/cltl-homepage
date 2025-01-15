@@ -1,3 +1,8 @@
+# binaries -> scp them to server instead
+*.pdf
+*.db
+*.xlsx
+
 # Emacs temp files
 *~
 
