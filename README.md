@@ -18,6 +18,9 @@ Install bibtexparser (directly from git)
 
 `$pip install --no-cache-dir --force-reinstall git+https://github.com/sciunto-org/python-bibtexparser@main`
 
+To update the database:
+`$ pip install pandas`
+
 Run the app locally:
 
 `$python __init__.py`

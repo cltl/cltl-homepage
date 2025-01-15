@@ -2,6 +2,7 @@
 
 import sys, os, logging
 import requests
+import sqlite3
 from flask import Flask, request, session, g, redirect, url_for, \
     abort, render_template, flash, send_from_directory
 
@@ -37,10 +38,6 @@ def static_from_root():
 def people():
     return render_template('people.html')
 
-@app.route('/people/sophie-arnoult')
-def people_sophie_arnoult():
-    return render_template('people-sophie-arnoult.html')
-
 @app.route('/research-overview')
 def research_overview():
     return render_template('research-overview.html')
@@ -71,7 +68,15 @@ def education_ma_tm():
 
 @app.route('/education-theses')
 def education_theses():
-    return render_template('education-theses.html')
+    con = sqlite3.connect("theses.db")
+    cur = con.cursor()
+    theses_hlt = cur.execute("SELECT author, year, title FROM hlt").fetchall()
+    theses_hlt = [(a, str(y), t) for (a, y, t) in theses_hlt]
+
+    theses_tm = cur.execute("SELECT author, year, title FROM hlt").fetchall()
+    theses_tm = [(a, str(y), t) for (a, y, t) in theses_tm]  
+    return render_template('education-theses.html', theses_hlt=theses_hlt, theses_tm=theses_tm)
+
 
 @app.route('/news-current')
 def news_current():
