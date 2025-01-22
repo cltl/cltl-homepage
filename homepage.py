@@ -66,19 +66,21 @@ def education_ma_hlt():
 def education_ma_tm():
     return render_template('education-ma-tm.html')
 
-def format_thesis_citation(cursor_result):
-    return [(a, str(y), t, f"./static/data/theses/thesis_{a.replace(" ", "_")}_{str(y)}.pdf") for (a, y, t) in cursor_result]
+def format_filename(fn):
+    if fn is not None:
+        return os.path.join("./static/data/theses", fn)
+    return None
 
 
 @app.route('/education-theses')
 def education_theses():
     con = sqlite3.connect("static/data/theses.db")
     cur = con.cursor()
-    theses_hlt = cur.execute("SELECT author, year, title FROM HLT").fetchall()
-    theses_hlt = format_thesis_citation(theses_hlt)
+    theses_hlt = cur.execute("SELECT author, year, title, filename FROM HLT").fetchall()
+    theses_hlt = [(a, str(y), t, format_filename(fn)) for (a, y, t, fn) in theses_hlt]
 
-    theses_langai = cur.execute("SELECT author, year, title FROM langAI").fetchall()
-    theses_langai = format_thesis_citation(theses_langai)  
+    theses_langai = cur.execute("SELECT author, year, title, filename FROM langAI").fetchall()
+    theses_langai = [(a, str(y), t, format_filename(fn)) for (a, y, t, fn) in theses_langai]
     return render_template('education-theses.html', theses_hlt=theses_hlt, theses_langai=theses_langai)
 
 

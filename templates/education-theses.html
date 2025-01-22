@@ -18,14 +18,22 @@ div {
     <h5 id="hlt_theses">Human Language Technology</h5>
     <ul>
         {% for item in theses_hlt %}
-            <li><strong>{{ item[0] }}</strong>, {{ item[1] }}. {{ item[2] }} (<a href="{{ item[3] }}">pdf</a>)</li> 
+            {% if item[3] is not none %}
+                <li><strong>{{ item[0] }}</strong>, {{ item[1] }}. {{ item[2] }} (<a href="{{ item[3] }}">pdf</a>)</li> 
+            {% else %}
+                <li><strong>{{ item[0] }}</strong>, {{ item[1] }}. {{ item[2] }}</li> 
+            {% endif %}
         {% endfor %}
     </ul>
   
     <h5 id="langai_theses">Language and AI</h5>
     <ul>
         {% for item in theses_langai %}
-            <li><strong>{{ item[0] }}</strong>, {{ item[1] }}. {{ item[2] }} (<a href="{{ item[3] }}">pdf</a>)</li> 
+            {% if item[3] is not none %}
+                <li><strong>{{ item[0] }}</strong>, {{ item[1] }}. {{ item[2] }} (<a href="{{ item[3] }}">pdf</a>)</li> 
+            {% else %}
+                <li><strong>{{ item[0] }}</strong>, {{ item[1] }}. {{ item[2] }}</li> 
+            {% endif %}
         {% endfor %}
     </ul>
   

@@ -19,7 +19,7 @@ Install bibtexparser (directly from git)
 `$pip install --no-cache-dir --force-reinstall git+https://github.com/sciunto-org/python-bibtexparser@main`
 
 To update the database:
-`$ pip install pandas`
+`$ pip install pandas openpyxl`
 
 Run the app locally:
 
@@ -28,6 +28,15 @@ Run the app locally:
 You should now be able to see the log on your terminal and access the page on your localhost:
 
 http://127.0.0.1:5000
+
+## Updating Theses list
+The theses overview is located at `static/data/theses_inventory.xlsx`, and theses at `static/data/theses`.
+For the website, theses data (author, year, title, filename) are read from a database created at `static/data/theses.db`, and theses pdfs are loaded from `static/data/theses`. 
+Call `create-db.py` to refresh the database with new theses:
+```
+python create-db.py
+```
+The script will also check if filenames are formatted correctly.
 
 ## Contributing to the website
 See [CONTRIBUTING.md](CONTRIBUTING.md) for general guidelines, and below for pull-request instructions.
