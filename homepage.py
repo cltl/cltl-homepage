@@ -68,13 +68,15 @@ def education_ma_tm():
 
 def format_filename(fn):
     if fn is not None:
-        return os.path.join("./static/data/theses", fn)
+        return os.path.join("/static/data/theses", fn)
     return None
 
 
 @app.route('/education-theses')
 def education_theses():
-    con = sqlite3.connect("static/data/theses.db")
+
+    db_path = app.config['STATIC_FOLDER'] + "/data/theses.db"
+    con = sqlite3.connect(db_path)
     cur = con.cursor()
     theses_hlt = cur.execute("SELECT author, year, title, filename FROM HLT").fetchall()
     theses_hlt = [(a, str(y), t, format_filename(fn)) for (a, y, t, fn) in theses_hlt]
