@@ -14,7 +14,7 @@ def check_files(con):
     flag = True
     for track in ['langAI', 'HLT', 'PhD']:
         data = con.cursor().execute(f"SELECT author, year, filename FROM {track}").fetchall()
-        faulty_entries = [x for x in data if x[2] is not None and len(x[2]) > 0 and x[2] != f"thesis_{x[0].replace(" ", "_")}_{x[1]}.pdf" for x in data]
+        faulty_entries = [x for x in data if x[2] is not None and len(x[2]) > 0 and x[2] != f"thesis_{x[0].replace(' ', '_')}_{x[1]}.pdf" for x in data]
         if len(faulty_entries) > 0:
             logger.warning(f"Check thesis filenames in track {track}, one or more filenames may be wrong")
             logger.warning(faulty_entries)
