@@ -12,34 +12,38 @@ div {
 
 <h3>Master Linguistics, Language and AI track</h3>
 
-   <div class="text-center">
-            <figure><img src="{{ url_for('static', filename='img/tm_banner.jpg') }}" alt="TM Banner" style="width: 100%;"></figure>
-        </div>
+{#   <div class="text-center">#}
+{#            <figure><img src="{{ url_for('static', filename='img/tm_banner.jpg') }}" alt="TM Banner" style="width: 100%;"></figure>#}
+{#        </div>#}
 
     <p>
-        Language technology is rapidly affecting society at large. 
-        In the Language and AI track of the MA Linguistics, students from various 
-        backgrounds (Linguistics, AI, but also other disciplines) come together 
-        to study Machine Learning methods and Linguistics for Natural Language Processing.
+        Companies have an increasing need of language technology specialists to deal with the rapid digitization of today's society.
+        In the Language and AI track of our Master's program in Linguistics, students from various backgrounds
+        (Linguistics, AI, but also other disciplines) come together  to study Machine Learning methods and Linguistics for Natural Language Processing.
+        This is a 1-year program targeted at students who want a faster track to an industry job.
     </p>
         
     <p>
-        Students finish the program by carrying out an internship in a company or in our research group
-        for their final thesis project. The CLTL actively looks for <a href="{{ url_for('education_overview') }}#internships">partnering companies</a>
-        to provide internship topics. 
-        The industry provides many career opportunities, as there is a growing need for linguists with a technical background.
-        Past their internship, students often find a research position in their internship company .
+        Students finish the program by writing a thesis. The thesis is often carried out as part of an internship, but it can  also be completed on a research topic in consultation with our research group.
+        The CLTL actively looks for partnering companies to provide internship topics.
+        Upon completing this program, most of our students find an industry position as an NLP or Language Data specialist.
     </p>
-    
-    <ul>
-        <li><a href="https://vu.nl/en/education/master/linguistics/curriculum?year=1st-year&specialization=text-mining" 
-            target=”_blank”>Master Language and AI</a>: 
-            more information on the program and studying at the Vrije Universiteit Amsterdam</li>
-        <li><a href="{{ url_for('education_theses') }}">Master Theses</a></li>
-    </ul>
+{#    #}
+{#    <ul>#}
+{#        <li><a href="https://vu.nl/en/education/master/linguistics/curriculum?year=1st-year&specialization=text-mining" #}
+{#            target=”_blank”>Master Language and AI</a>: #}
+{#            more information on the program and studying at the Vrije Universiteit Amsterdam</li>#}
+{#        <li><a href="{{ url_for('education_theses') }}">Master Theses</a></li>#}
+{#    </ul>#}
+
+    <p>
+        For more information about this program please find our track within the
+        <a href="https://vu.nl/en/education/master/linguistics/curriculum?year=1st-year&specialization=text-mining" target=”_blank”>Master's in Linguistics</a>.
+    </p>
 
 
-    <p>Contact: <a href="{{ url_for('people') }}#hennie" target="_blank">Hennie van der Vliet</a></p>
+
+    <p>If you have any questions, please <!--  -->ontact: <a href="{{ url_for('people') }}#hennie" target="_blank">Hennie van der Vliet</a></p>
 
 </div>
 {% endblock %}

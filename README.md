@@ -8,18 +8,15 @@ Create a python environment
 
 Activate it
 
-`$source venv/bin/activate`
+`$ source venv/bin/activate`
 
 Install Flask and other main dependencies:
 
-`$pip install -U flask flask-cors requests pybtex `
+`$ pip install -r requirements.txt`
 
 Install bibtexparser (directly from git)
 
-`$pip install --no-cache-dir --force-reinstall git+https://github.com/sciunto-org/python-bibtexparser@main`
-
-To update the database:
-`$ pip install pandas openpyxl`
+`$ pip install --no-cache-dir --force-reinstall git+https://github.com/sciunto-org/python-bibtexparser@main`
 
 Run the app locally:
 

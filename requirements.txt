@@ -1,0 +1,7 @@
+flask 
+flask-cors 
+gdown
+openpyxl
+pandas
+pybtex
+requests 

@@ -1,7 +1,7 @@
 # binaries
 *.pdf binary    
 *.xlsx binary
-
+*.bck
 # Emacs temp files
 *~
 
