@@ -78,7 +78,7 @@
             <a class="nav-link dropdown-toggle" href="" id="dropdown-projs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications</a>
             <div class="dropdown-menu" aria-labelledby="dropdown-projs">
 {#              <a class="dropdown-item" href="{{ url_for('publications2') }}">All Publications</a>#}
-              <a class="dropdown-item" href="{{ url_for('publication_requirements') }}">Publication Requirements</a>
+              <a class="dropdown-item" href="{{ url_for('publication_requirements') }}">Our principles</a>
             </div>
           </li>
 
@@ -106,9 +106,9 @@
         <div>
             <figure><img src="{{ url_for('static', filename='img/cltl_header.png') }}" alt="CLTL" style="width: 100%;"></figure>
         </div>
-        <div class="alert alert-warning" role="alert">
-        This website is currently under live construction! For now, you probably should go here: <a href="http://www.cltl.nl/">http://www.cltl.nl/</a>
-        </div>
+{#        <div class="alert alert-warning" role="alert">#}
+{#        This website is currently under live construction! For now, you probably should go here: <a href="http://www.cltl.nl/">http://www.cltl.nl/</a>#}
+{#        </div>#}
         <br>
       {% block main %}{% endblock %} 
     </main>
@@ -117,7 +117,8 @@
       <div class="container">
         <span class="text-white">
 	        <a class="text-white" href="https://github.com/cltl"><i class="fa-brands fa-square-github"></i></a>&nbsp;&nbsp;
-	        <a class="text-white" href="https://x.com/cltlvu"><i class="fa-brands fa-square-x-twitter"></i></a>&nbsp;&nbsp;
+{#	        <a class="text-white" href="https://x.com/cltlvu"><i class="fa-brands fa-square-x-twitter"></i></a>&nbsp;&nbsp;#}
+	        <a class="text-white" href="https://web-cdn.bsky.app/profile/cltl.bsky.social"><i class="fa-brands fa-bluesky"></i></a>&nbsp;&nbsp;
 	        <a class="text-white"  href="https://bitbucket.org/cltl/workspace/repositories/"><i class="fa-brands fa-bitbucket"></i></a>&nbsp;&nbsp;
 
 
