@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import json
 import sys, os, logging
 import requests
 import sqlite3
@@ -71,18 +72,23 @@ def format_filename(fn):
         return os.path.join("/static/data/theses", fn)
     return None
 
+def format_entry(d):
+    filename = format_filename(d.get('FileName', None))
+    return (f"{d["FirstName"]} {d["LastName"]}", str(d["Year"]), d["Title"], filename)
+
+def get_thesis_info(json_file):
+    with open(
+        os.path.join(app.config['STATIC_FOLDER'], 'data', json_file),
+        'r',
+        encoding='utf-8'
+    ) as f:
+        theses = json.load(f)
+    return [format_entry(d) for d in theses]
 
 @app.route('/education-theses')
 def education_theses():
-
-    db_path = app.config['STATIC_FOLDER'] + "/data/theses.db"
-    con = sqlite3.connect(db_path)
-    cur = con.cursor()
-    theses_hlt = cur.execute("SELECT author, year, title, filename FROM HLT").fetchall()
-    theses_hlt = [(a, str(y), t, format_filename(fn)) for (a, y, t, fn) in theses_hlt]
-
-    theses_langai = cur.execute("SELECT author, year, title, filename FROM langAI").fetchall()
-    theses_langai = [(a, str(y), t, format_filename(fn)) for (a, y, t, fn) in theses_langai]
+    theses_hlt = get_thesis_info('theses_hlt.json')
+    theses_langai = get_thesis_info('theses_langAI.json')
     return render_template('education-theses.html', theses_hlt=theses_hlt, theses_langai=theses_langai)
 
 

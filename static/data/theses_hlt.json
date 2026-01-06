@@ -1,0 +1,261 @@
+[
+  {
+    "FirstName": "Malihehassadat (Farnaz)",
+    "LastName": "Bani Fatemi",
+    "Year": 2025,
+    "Title": "Grammaticality and LLMs: Evaluating the Potential of BabyLMs for Grammatical Error Detection in NLP",
+    "FileName": "thesis_Malihehassadat_Bani_Fatemi_2025.pdf"
+  },
+  {
+    "FirstName": "Ariana",
+    "LastName": "Britez",
+    "Year": 2025,
+    "Title": "Exploring Ensemble Strategies for Misogynous and Sexist Meme Detection",
+    "FileName": "thesis_Ariana_Britez_2025.pdf"
+  },
+  {
+    "FirstName": "Szabolcs",
+    "LastName": "Pál",
+    "Year": 2025,
+    "Title": "Investigation of Scalable Audio-based Speaker Identification in the context of Communicative Robots",
+    "FileName": "thesis_Szabolcs_Pal_2025.pdf"
+  },
+  {
+    "FirstName": "Yee Man",
+    "LastName": "Ng",
+    "Year": 2024,
+    "Title": "A Comparative Study of Open-Source and Closed-Source Large Language Models for Native Language Identification",
+    "FileName": "thesis_Yee_Man_Ng_2024.pdf"
+  },
+  {
+    "FirstName": "Sidi",
+    "LastName": "Wang",
+    "Year": 2024,
+    "Title": "LLMs as annotators for machine translation quality estimation",
+    "FileName": "thesis_Sidi_Wang_2024.pdf"
+  },
+  {
+    "FirstName": "Marije",
+    "LastName": "Brandsma",
+    "Year": 2023,
+    "Title": "Decoding Populism: Analyzing Lexical Choice and Linguistic Simplicity in Tweets",
+    "FileName": "thesis_Marije_Brandsma_2023.pdf"
+  },
+  {
+    "FirstName": "Bas",
+    "LastName": "Diender",
+    "Year": 2023,
+    "Title": "Random Seed Influence on Language Model Generalizabilit",
+    "FileName": "thesis_Bas_Diender_2023.pdf"
+  },
+  {
+    "FirstName": "Mekselina",
+    "LastName": "Doğanç",
+    "Year": 2023,
+    "Title": "Automatic Generation of Personalized Counter Narratives Based on User Profile",
+    "FileName": "thesis_Mekselina_Doganc_2023.pdf"
+  },
+  {
+    "FirstName": "Mojca",
+    "LastName": "Kloos",
+    "Year": 2023,
+    "Title": "Mitigating Gender Bias with Deep Reinforcement Learning",
+    "FileName": "thesis_Mojca_Kloos_2023.pdf"
+  },
+  {
+    "FirstName": "Agnieszka",
+    "LastName": "Kluska",
+    "Year": 2023,
+    "Title": "Adapting Microportrait Extraction for Queer Stereotype Identification in Polish Online News",
+    "FileName": "thesis_Agnieszka_Kluska_2023.pdf"
+  },
+  {
+    "FirstName": "Vasiliki",
+    "LastName": "Kyrmanidi",
+    "Year": 2023,
+    "Title": "Exploring the Impact of Structured Dialogue Representation on Neural Dialogue Response Generation",
+    "FileName": "thesis_Vasiliki_Kyrmanidi_2023.pdf"
+  },
+  {
+    "FirstName": "Dorien",
+    "LastName": "Renting",
+    "Year": 2023,
+    "Title": "Multi-task fine-tuning for hate speech detection",
+    "FileName": "thesis_Dorien_Renting_2023.pdf"
+  },
+  {
+    "FirstName": "Rorick",
+    "LastName": "Terlou",
+    "Year": 2023,
+    "Title": "Increasing Readability with Disfluency Removal in Automatic Dutch Transcriptions",
+    "FileName": "thesis_Rorick_Terlou_2023.pdf"
+  },
+  {
+    "FirstName": "Marcel",
+    "LastName": "Feteke",
+    "Year": 2022,
+    "Title": "Cross-lingual Transfer Using Stacked Language Adapters",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Eliza",
+    "LastName": "Hobo",
+    "Year": 2022,
+    "Title": "Simply accessible: Contextualized Lexical Simplification for Accessibility of Dutch Texts",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Sanne",
+    "LastName": "Hoeken",
+    "Year": 2022,
+    "Title": "Using Language Models for Analyzing Semantic Variation between Dutch Social Communities",
+    "FileName": "thesis_Sanne_Hoeken_2022.pdf"
+  },
+  {
+    "FirstName": "Adrielli",
+    "LastName": "Lopez Rego",
+    "Year": 2022,
+    "Title": "Matching Ontologies in the Education Domain with Semantic Similarity",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Yilmaz",
+    "LastName": "Polat",
+    "Year": 2022,
+    "Title": "The Hallucinatory World of Automatic Text Generation",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Alessandra",
+    "LastName": "Polimeno",
+    "Year": 2022,
+    "Title": "Diversifying News Recommendation Systems by Detecting Fragmentation in News Story Chains",
+    "FileName": "thesis_Alessandra_Polimeno_2022.pdf"
+  },
+  {
+    "FirstName": "Charlotte",
+    "LastName": "Pouw",
+    "Year": 2022,
+    "Title": "Cross-lingual Transfer of Correlations between Linguistic Complexity and Human Reading Behaviour",
+    "FileName": "thesis_Charlotte_Pouw_2022.pdf"
+  },
+  {
+    "FirstName": "Vivian",
+    "LastName": "Claes",
+    "Year": 2021,
+    "Title": "ECBERT: Applying BERT to European Central Bank Communication to Predict Market Response",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Søren K.",
+    "LastName": "Fomsgaard",
+    "Year": 2021,
+    "Title": "In the eye of the storm with style – Investigating style features in the language of QAnon on Twitter",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Sophie",
+    "LastName": "Neutel",
+    "Year": 2021,
+    "Title": "Towards automatic ontology alignment using BERT",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Nathan",
+    "LastName": "van der Molen-Pater",
+    "Year": 2021,
+    "Title": "Information Usage in Coreference Resolution",
+    "FileName": ""
+  },
+  {
+    "FirstName": "András",
+    "LastName": "Aponyi",
+    "Year": 2020,
+    "Title": "Estimating Translation Quality Using Distributed Representations of Words and Sentences",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Klaudia",
+    "LastName": "Bartosiak",
+    "Year": 2020,
+    "Title": "Towards Formalizing Eligibility Criteria of Clinical Trials: Biomedical Entity Linking",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Suzana",
+    "LastName": "Bašić",
+    "Year": 2020,
+    "Title": "Color as a Discriminative Property for Establishing Object Identity in Human-Robot Communication",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Lauren",
+    "LastName": "Green",
+    "Year": 2020,
+    "Title": "Semi-supervised Classification of Occupations using Pseudo-Labelling and Information Extraction",
+    "FileName": "thesis_Lauren_Green_2020.pdf"
+  },
+  {
+    "FirstName": "Ngan",
+    "LastName": "Nguyen",
+    "Year": 2020,
+    "Title": "Clickbait anatomy: Identifying clickbait with machine learning",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Jonathan",
+    "LastName": "Schaller",
+    "Year": 2020,
+    "Title": "Cross-domain evaluation of a question-answering classifier",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Lisa",
+    "LastName": "Vasileva",
+    "Year": 2020,
+    "Title": "Machine Translation Detection for Neural Machine Translation Scenario",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Karen",
+    "LastName": "Goes",
+    "Year": 2019,
+    "Title": "Exploring text mining techniques to structure a digitised catalogue",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Liza",
+    "LastName": "King",
+    "Year": 2018,
+    "Title": "Modals and Measles: Computational linguistic investigations into modal use in the vaccination debate",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Benedetta",
+    "LastName": "Torsi",
+    "Year": 2018,
+    "Title": "Detecting claims in a cross-register corpus",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Pia",
+    "LastName": "Sommerauer",
+    "Year": 2017,
+    "Title": "From old to new racism? Investigating known dangers in distributional semantic approaches to conceptual change",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Chantal",
+    "LastName": "van Son",
+    "Year": 2015,
+    "Title": "Towards a Dutch frame-semantic parser",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Femke",
+    "LastName": "Klaver",
+    "Year": 2014,
+    "Title": "Authorship attribution of forum posts",
+    "FileName": ""
+  }
+]
