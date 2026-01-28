@@ -1,0 +1,492 @@
+[
+  {
+    "FirstName": "Shutao",
+    "LastName": "Chen",
+    "Year": 2025,
+    "Title": "From 9 to 17 Categories: Weakly Supervised Sentence-Level ICF Classification in Dutch Rehabilitation Notes with GPT-4 Labeling and MedRoBERTa Fine-Tuning",
+    "FileName": "thesis_Shutao_Chen_2025.pdf"
+  },
+  {
+    "FirstName": "Xin",
+    "LastName": "Chen",
+    "Year": 2025,
+    "Title": "Generating Follow-up Questions in Health Conversations Using Fine-tuned Language Models",
+    "FileName": "thesis_Xin_Chen_2025.pdf"
+  },
+  {
+    "FirstName": "Elisabetta",
+    "LastName": "Dentico",
+    "Year": 2025,
+    "Title": "Grammatical Error Detection in L2 English and Italian: How Multilingual LLMs Handle Ambiguity in Learner Errors",
+    "FileName": "thesis_Elisabetta_Dentico_2025.pdf"
+  },
+  {
+    "FirstName": "K.D.",
+    "LastName": "Gerritsen",
+    "Year": 2025,
+    "Title": "Exploring Implicit Abusive Speech Detection: A Comprehensive Analysis of Fine-Tuning BERT and Prompting Qwen2.5",
+    "FileName": "thesis_K_Gerritsen_2025.pdf"
+  },
+  {
+    "FirstName": "Hannah",
+    "LastName": "Goossens",
+    "Year": 2025,
+    "Title": "Multitask Learning of Semantic Role Labeling and Named Entity Recognition for domain-specific documents from the Dutch East-India Company archives",
+    "FileName": "thesis_Hannah_Goossens_2025.pdf"
+  },
+  {
+    "FirstName": "Ningxuan",
+    "LastName": "Guo",
+    "Year": 2025,
+    "Title": "Knowledge Distillation for Machine Translation Quality Estimation",
+    "FileName": "thesis_Ningxuan_Guo_2025.pdf"
+  },
+  {
+    "FirstName": "Tessel",
+    "LastName": "Haagen",
+    "Year": 2025,
+    "Title": "Trend and Popularity Analysis for Art Related Texts from 1600-1800",
+    "FileName": "thesis_Tessel_Haagen_2025.pdf"
+  },
+  {
+    "FirstName": "Victoria",
+    "LastName": "Im",
+    "Year": 2025,
+    "Title": "What’s in a phrase? Identifying implicit hate with generative AI",
+    "FileName": "thesis_Victoria_Im_2025.pdf"
+  },
+  {
+    "FirstName": "Urtė",
+    "LastName": "Jakubauskaitė",
+    "Year": 2025,
+    "Title": "From Nine to One: Combining ICF Functioning Level Classifiers in the A-PROOF Project",
+    "FileName": "thesis_Urte_Jakubauskaite_2025.pdf"
+  },
+  {
+    "FirstName": "Areumbyeol",
+    "LastName": "Kim",
+    "Year": 2025,
+    "Title": "Modeling Offensive Language as a Distinct Class for Hate Speech Detection",
+    "FileName": "thesis_Areumbyeol_Kim_2025.pdf"
+  },
+  {
+    "FirstName": "Wayne",
+    "LastName": "Kuan",
+    "Year": 2025,
+    "Title": "Evaluating the Impact of Continuous Pre-Training on ASR Models for Word-Level English Pronunciation Intelligibility",
+    "FileName": "thesis_Wayne_Kuan_2025.pdf"
+  },
+  {
+    "FirstName": "Shenglin",
+    "LastName": "Li",
+    "Year": 2025,
+    "Title": "Evaluating the Impact of Linguistic Features in Harmful Meme Detection: A Systematic Ablation Study",
+    "FileName": "thesis_Shenglin_Li_2025.pdf"
+  },
+  {
+    "FirstName": "Nikhil",
+    "LastName": "Mathews",
+    "Year": 2025,
+    "Title": "Evaluating Generalisation in Named Entity Recognition through Robustness Testing",
+    "FileName": "thesis_Nikhil_Mathews_2025.pdf"
+  },
+  {
+    "FirstName": "Melina",
+    "LastName": "Paxinou",
+    "Year": 2025,
+    "Title": "Staying Relevant: Metaphor Detection and Domain Relevance Classification in Immunotherapy Texts",
+    "FileName": "thesis_Melina_Paxinou_2025.pdf"
+  },
+  {
+    "FirstName": "Maja",
+    "LastName": "Syrek",
+    "Year": 2025,
+    "Title": "Evaluating Historical Language Models for literary research",
+    "FileName": "thesis_Maja_Syrek_2025.pdf"
+  },
+  {
+    "FirstName": "Ino",
+    "LastName": "van de Wouw",
+    "Year": 2025,
+    "Title": "Learning with Less: Contrastive Weight Tying on the BabyLM Challenge",
+    "FileName": "thesis_Ino_Wouw_2025.pdf"
+  },
+  {
+    "FirstName": "Sanne",
+    "LastName": "van den Berg",
+    "Year": 2025,
+    "Title": "Assessing the Role of Gesture Information in NLG: a Case Study with LLMs and Multimodal AMR",
+    "FileName": "thesis_Sanne_Berg_2025.pdf"
+  },
+  {
+    "FirstName": "Selin",
+    "LastName": "Açikel",
+    "Year": 2024,
+    "Title": "Lost in Translation: Analyzing Machine Translation Quality Estimation with Synthetic Challenges",
+    "FileName": "thesis_Selin_Acikel_2024.pdf"
+  },
+  {
+    "FirstName": "Murat",
+    "LastName": "Ertas",
+    "Year": 2024,
+    "Title": "Improving Medical Text Classifiers with Balanced Datasets",
+    "FileName": "thesis_Murat_Ertas_2024.pdf"
+  },
+  {
+    "FirstName": "Payam",
+    "LastName": "Fakhraei",
+    "Year": 2024,
+    "Title": "Context-Aware Hate Speech Detection using BERT: An Investigation with the Contextual Abuse Dataset",
+    "FileName": "thesis_Payam_Fakhraei_2024.pdf"
+  },
+  {
+    "FirstName": "Chuqiao",
+    "LastName": "Guo",
+    "Year": 2024,
+    "Title": "Extracting Activity Information with LLMs Using GPT-Generated Data",
+    "FileName": "thesis_Chuqiao_Guo_2024.pdf"
+  },
+  {
+    "FirstName": "Long",
+    "LastName": "Ma",
+    "Year": 2024,
+    "Title": "Chinese Healthcare Named Entity Recognition (CHNER) Using BiLSTM-CRF Classifiers",
+    "FileName": "thesis_Long_Ma_2024.pdf"
+  },
+  {
+    "FirstName": "Alyssa",
+    "LastName": "MacGregor-Hastie",
+    "Year": 2024,
+    "Title": "Chats, Agents and Lyrics",
+    "FileName": "thesis_Alyssa_MacGregor-Hastie_2024.pdf"
+  },
+  {
+    "FirstName": "Csenge",
+    "LastName": "Szabó",
+    "Year": 2024,
+    "Title": "Multi-Label Topic Classification of Client Feedback in the Governance Domain",
+    "FileName": "thesis_Csenge_Szabo_2024.pdf"
+  },
+  {
+    "FirstName": "Irma",
+    "LastName": "Tuinenga",
+    "Year": 2024,
+    "Title": "Words Made Easy: a Comparative Study of Methods for English Lexical Simplification",
+    "FileName": "thesis_Irma_Tuinenga_2024.pdf"
+  },
+  {
+    "FirstName": "Yijing",
+    "LastName": "Zhang",
+    "Year": 2024,
+    "Title": "Usage of Generative Models to Ask Follow-up Questions for Health Monitoring",
+    "FileName": "thesis_Yijing_Zhang_2024.pdf"
+  },
+  {
+    "FirstName": "Furong",
+    "LastName": "Zou",
+    "Year": 2024,
+    "Title": "Exploring An Existing ASR Model for a Binary Classification of Intelligibility on MOOC English Speech Data",
+    "FileName": "thesis_Furong_Zou_2024.pdf"
+  },
+  {
+    "FirstName": "Ajda",
+    "LastName": "Efendi",
+    "Year": 2023,
+    "Title": "Document Classification on EQF levels with Multilingual datasets in English",
+    "FileName": "thesis_Ajda_Efendi_2023.pdf"
+  },
+  {
+    "FirstName": "Swarupa",
+    "LastName": "Hardikar",
+    "Year": 2023,
+    "Title": "Exploring Open-source Generative Models for Lexical Simplification through Prompt Learning",
+    "FileName": "thesis_Swarupa_Hardikar_2023.pdf"
+  },
+  {
+    "FirstName": "Natalia",
+    "LastName": "Khaidanova",
+    "Year": 2023,
+    "Title": "Machine-Translation Evaluation: Comparing Traditional and Neural Machine-Translation Evaluation Metrics for English–Russian",
+    "FileName": "thesis_Natalia_Khaidanova_2023.pdf"
+  },
+  {
+    "FirstName": "Sofia",
+    "LastName": "Lee",
+    "Year": 2023,
+    "Title": "Incident in Zagreb:  self-supervised task adaptation performed: Impact of Task Adapting on Transformer Models for Targeted Sentiment Analysis in Croatian Headlines",
+    "FileName": "thesis_Sofia_Lee_2023.pdf"
+  },
+  {
+    "FirstName": "Quincy",
+    "LastName": "Liem",
+    "Year": 2023,
+    "Title": "On the limits of entity linking on domain-specific data",
+    "FileName": "thesis_Quincy_Liem_2023.pdf"
+  },
+  {
+    "FirstName": "Noah-Manuel",
+    "LastName": "Michael",
+    "Year": 2023,
+    "Title": "Automated Verb Order Error Detection for Learners of Dutch as a Second Language",
+    "FileName": "thesis_Noah-Manuel_Michael_2023.pdf"
+  },
+  {
+    "FirstName": "Siti",
+    "LastName": "Nurhalimah",
+    "Year": 2023,
+    "Title": "Enhancing Wordnet Bahasa through Multilingual Sense Intersection",
+    "FileName": "thesis_Siti_Nurhalimah_2023.pdf"
+  },
+  {
+    "FirstName": "Cecilia",
+    "LastName": "Schramm",
+    "Year": 2023,
+    "Title": "Using Semi-supervised Learning to Automatically Annotate Dutch Medical Notes for Patients’ Functioning Levels",
+    "FileName": "thesis_Cecilia_Schramm_2023.pdf"
+  },
+  {
+    "FirstName": "Hasan",
+    "LastName": "Shahoud",
+    "Year": 2023,
+    "Title": "Discovering Hidden Cues using TF-IDF and their Relevance on Cultural Inter-dependency",
+    "FileName": "thesis_Hasan_Shahoud_2023.pdf"
+  },
+  {
+    "FirstName": "Saloni",
+    "LastName": "Singh",
+    "Year": 2023,
+    "Title": "Leveraging university curricula and course descriptions to augment a knowledge graph with degree-skill relationships",
+    "FileName": "thesis_Saloni_Singh_2023.pdf"
+  },
+  {
+    "FirstName": "Adam",
+    "LastName": "Tucker",
+    "Year": 2023,
+    "Title": "Master Thesis An investigation of complex word identification (CWI) systems for English",
+    "FileName": "thesis_Adam_Tucker_2023.pdf"
+  },
+  {
+    "FirstName": "Konstantina",
+    "LastName": "Andronikou",
+    "Year": 2022,
+    "Title": "Automatic Retrieval of Topics Using Topic Modeling Techniques from Customer Conversations in the Airline Domain",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Sharona",
+    "LastName": "Badloe",
+    "Year": 2022,
+    "Title": "MedRoBERTa.nl: Transfer Learning From COVID-19 to Cancer Patients",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Myrthe",
+    "LastName": "Buckens",
+    "Year": 2022,
+    "Title": "Comparing and Evaluating Language Models for Conversational Data from the Medical Domain.",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Felix",
+    "LastName": "den Heijer",
+    "Year": 2022,
+    "Title": "NER Classification for old and modern Dutch biographies: A comparative study of finetuned BERT models and out-of-the-box tools",
+    "FileName": "thesis_Felix_den_Heijer_2022.pdf"
+  },
+  {
+    "FirstName": "Ellemijn",
+    "LastName": "Galjaard",
+    "Year": 2022,
+    "Title": "Evaluating Transfer of a Functional Level Classifier from Secondary to Primary Healthcare Notes",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Yan Chung",
+    "LastName": "Li",
+    "Year": 2022,
+    "Title": "A Challenge Set for Natural Language Inference on but-inferred propositions",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Giorgio",
+    "LastName": "Malinverni",
+    "Year": 2022,
+    "Title": "Analysing the Influence of Morphological Characteristics on the Performance of Few-Shot Prompting for Natural Language Inference in Cross-Lingual Settings",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Lahorka",
+    "LastName": "Nikolovski",
+    "Year": 2022,
+    "Title": "Synthetic Data for Domain Adaptation in Neural Machine Translation",
+    "FileName": "thesis_Lahorka_Nikolovski_2022.pdf"
+  },
+  {
+    "FirstName": "Sylvia",
+    "LastName": "Pronk",
+    "Year": 2022,
+    "Title": "A detailed comparison between two coreference systems and their effect on key-sentence extraction",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Mira",
+    "LastName": "Reisiger",
+    "Year": 2022,
+    "Title": "Context-based entity linking of biomedical text",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Lois",
+    "LastName": "Rink",
+    "Year": 2022,
+    "Title": "Automatic Classification of Speech Acts in tax service letters",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Shuyi",
+    "LastName": "Shen",
+    "Year": 2022,
+    "Title": "Data to text generation with a joint entity and relation based method for a job advertisement",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Anouk",
+    "LastName": "Twilt",
+    "Year": 2022,
+    "Title": "Sustainability in action: exploring automatically extracting actions from news-articles",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Michiel",
+    "LastName": "van Nederpelt",
+    "Year": 2022,
+    "Title": "Evaluating a transformer-based language model under increasingly challenging conditions for the task of offensive language detection",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Elena",
+    "LastName": "Weber",
+    "Year": 2022,
+    "Title": "Automatic Topic Classification of Customer Feedback in the Banking Domain",
+    "FileName": "thesis_Elena_Weber_2022.pdf"
+  },
+  {
+    "FirstName": "Tessel",
+    "LastName": "Wisman",
+    "Year": 2022,
+    "Title": "Domain adaptation of end-to-end ASR via n-gram language modelling",
+    "FileName": "thesis_Tessel_Wisman_2022.pdf"
+  },
+  {
+    "FirstName": "Jingyue",
+    "LastName": "Zhang",
+    "Year": 2022,
+    "Title": "Mapping text to learning objectives: A keyword-based text classification method",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Guido",
+    "LastName": "Ansem",
+    "Year": 2021,
+    "Title": "The Effect of Auxiliary Data on Low Resource Languages in Aspect Extraction",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Gabriele",
+    "LastName": "Catanese",
+    "Year": 2021,
+    "Title": "A Transfer Learning approach to Aspect Based Sentiment Analysis for airline customer feedbacks",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Michelle",
+    "LastName": "Chan",
+    "Year": 2021,
+    "Title": "An Empirical Framework for Topic Modelling for Dutch Texts based on Newspaper Articles on Soil Pollution",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Eva",
+    "LastName": "den Uijl",
+    "Year": 2021,
+    "Title": "Detecting Discriminatory Language in Job Advertising Texts",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Stan",
+    "LastName": "Frinking",
+    "Year": 2021,
+    "Title": "Using Text Mining Techniques to Detect Fall Events in Medical Patient Notes",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Sanne",
+    "LastName": "Hamersma",
+    "Year": 2021,
+    "Title": "Explorative analysis of precursors of physical aggression in a health care institute: a Text Mining approach",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Melisha",
+    "LastName": "Lemain-van der Nest",
+    "Year": 2021,
+    "Title": "Named Entity Recognition: identifying NER Indicators in Dutch Police Reports",
+    "FileName": "thesis_Melisha_Lemain-van_der_Nest_2021.pdf"
+  },
+  {
+    "FirstName": "Breta",
+    "LastName": "Micha",
+    "Year": 2021,
+    "Title": "Automatic Terminology Extraction in domain specific texts: a comparison between a rule-based system and a BERT-based system.",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Aju",
+    "LastName": "Shreshta",
+    "Year": 2021,
+    "Title": "BERTje-based Automatic Anonymisation of Dutch Police Reports",
+    "FileName": "thesis_Aju_Shreshta_2021.pdf"
+  },
+  {
+    "FirstName": "Dyon",
+    "LastName": "van der Ende",
+    "Year": 2021,
+    "Title": "Text Mining for Sustainability: Detecting Corporate Greenwashing with the Sustainable Development Goals",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Jasmine",
+    "LastName": "van Vugt",
+    "Year": 2021,
+    "Title": "Two Dutch fine-tuned BERT models: Named Entity Recognition and Named Entity Linking to increase findability of local geographical information.",
+    "FileName": "thesis_Jasmine_van_Vugt_2021.pdf"
+  },
+  {
+    "FirstName": "Peter",
+    "LastName": "Caine",
+    "Year": 2020,
+    "Title": "Mind the gap: A comparison of linguistic vs deep-learning approaches to aspect extraction and aspect category detection",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Luca",
+    "LastName": "Meima",
+    "Year": 2020,
+    "Title": "Finding potentially HIV defining conditions in medical reports",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Jan",
+    "LastName": "van Casteren",
+    "Year": 2020,
+    "Title": "Automatic Attribution Extraction From Dutch News Articles: A Beginning",
+    "FileName": ""
+  },
+  {
+    "FirstName": "Eva",
+    "LastName": "Zegelaar",
+    "Year": 2020,
+    "Title": "An Automatic Emotion & Purpose Classifier for Dutch Tweets Written by Members of the Dutch Parliament",
+    "FileName": ""
+  }
+]

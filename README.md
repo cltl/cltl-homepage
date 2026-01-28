@@ -27,13 +27,7 @@ You should now be able to see the log on your terminal and access the page on yo
 http://127.0.0.1:5000
 
 ## Updating Theses list
-The theses overview is located at `static/data/theses_inventory.xlsx`, and theses at `static/data/theses`.
-For the website, theses data (author, year, title, filename) are read from a database created at `static/data/theses.db`, and theses pdfs are loaded from `static/data/theses`. 
-Call `create-db.py` to refresh the database with new theses:
-```
-python create-db.py
-```
-The script will also check if filenames are formatted correctly.
+The theses and metadata (one json for each track) are stored under `static/data/theses`. Make sure to update both.
 
 ## Contributing to the website
 See [CONTRIBUTING.md](CONTRIBUTING.md) for general guidelines, and below for pull-request instructions.
