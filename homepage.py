@@ -74,7 +74,7 @@ def format_filename(fn):
 
 def format_entry(d):
     filename = format_filename(d.get('FileName', None))
-    return (f"{d["FirstName"]} {d["LastName"]}", str(d["Year"]), d["Title"], filename)
+    return (f"""{d["FirstName"]} {d["LastName"]}""", str(d["Year"]), d["Title"], filename)
 
 def get_thesis_info(json_file):
     with open(
