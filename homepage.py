@@ -4,8 +4,18 @@ import json
 import sys, os, logging
 import requests
 import sqlite3
-from flask import Flask, request, session, g, redirect, url_for, \
-    abort, render_template, flash, send_from_directory
+from flask import (
+    Flask,
+    request,
+    session,
+    g,
+    redirect,
+    url_for,
+    abort,
+    render_template,
+    flash,
+    send_from_directory,
+)
 
 import pybtex.database.input.bibtex
 import pybtex.plugin
@@ -22,94 +32,117 @@ CORS(app)  # added this
 
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
-APP_STATIC = os.path.join(APP_ROOT, 'static')
+APP_STATIC = os.path.join(APP_ROOT, "static")
 
-app.config['STATIC_FOLDER'] = APP_STATIC
+app.config["STATIC_FOLDER"] = APP_STATIC
 
 
-@app.route('/')
+@app.route("/")
 def home():
-    return render_template('welcome.html')
+    return render_template("welcome.html")
 
-@app.route('/robots.txt')
+
+@app.route("/robots.txt")
 def static_from_root():
-    return send_from_directory(app.config['STATIC_FOLDER'], request.path[1:])
+    return send_from_directory(app.config["STATIC_FOLDER"], request.path[1:])
 
-@app.route('/people')
+
+@app.route("/people")
 def people():
-    return render_template('people.html')
+    return render_template("people.html")
 
-@app.route('/research-overview')
+
+@app.route("/research-overview")
 def research_overview():
-    return render_template('research-overview.html')
+    return render_template("research-overview.html")
 
-@app.route('/research-projs-current')
+
+@app.route("/research-projs-current")
 def projs_current():
-    return render_template('research-projs-current.html')
+    return render_template("research-projs-current.html")
 
-@app.route('/research-projs-completed')
+
+@app.route("/research-projs-completed")
 def projs_completed():
-    return render_template('research-projs-completed.html')
+    return render_template("research-projs-completed.html")
 
-@app.route('/research-partnerships')
+
+@app.route("/research-partnerships")
 def research_partnerships():
-    return render_template('research-partnerships.html')
+    return render_template("research-partnerships.html")
 
-@app.route('/education-overview')
+
+@app.route("/education-overview")
 def education_overview():
-    return render_template('education-overview.html')
+    return render_template("education-overview.html")
 
-@app.route('/education-ma-hlt')
+
+@app.route("/education-ma-hlt")
 def education_ma_hlt():
-    return render_template('education-ma-hlt.html')
+    return render_template("education-ma-hlt.html")
 
-@app.route('/education-ma-tm')
+
+@app.route("/education-ma-tm")
 def education_ma_tm():
-    return render_template('education-ma-tm.html')
+    return render_template("education-ma-tm.html")
 
-def format_filename(fn):
-    if fn is not None:
-        return os.path.join("/static/data/theses", fn)
+
+def format_filename(filename):
+    if filename is not None and len(filename) > 0:
+        return os.path.join("/static/data/theses", filename)
     return None
 
+
 def format_entry(d):
-    filename = format_filename(d.get('FileName', None))
-    return (f"""{d["FirstName"]} {d["LastName"]}""", str(d["Year"]), d["Title"], filename)
+    filename = format_filename(d.get("FileName", None))
+    return (
+        f"""{d["FirstName"]} {d["LastName"]}""",
+        str(d["Year"]),
+        d["Title"],
+        filename,
+    )
+
 
 def get_thesis_info(json_file):
     with open(
-        os.path.join(app.config['STATIC_FOLDER'], 'data', json_file),
-        'r',
-        encoding='utf-8'
+        os.path.join(app.config["STATIC_FOLDER"], "data", json_file),
+        "r",
+        encoding="utf-8",
     ) as f:
         theses = json.load(f)
     return [format_entry(d) for d in theses]
 
-@app.route('/education-theses')
+
+@app.route("/education-theses")
 def education_theses():
-    theses_hlt = get_thesis_info('theses_hlt.json')
-    theses_langai = get_thesis_info('theses_langAI.json')
-    return render_template('education-theses.html', theses_hlt=theses_hlt, theses_langai=theses_langai)
+    theses_hlt = get_thesis_info("theses_hlt.json")
+    theses_langai = get_thesis_info("theses_langAI.json")
+    return render_template(
+        "education-theses.html", theses_hlt=theses_hlt, theses_langai=theses_langai
+    )
 
 
-@app.route('/news-current')
+@app.route("/news-current")
 def news_current():
-    return render_template('news-current.html')
+    return render_template("news-current.html")
 
-@app.route('/news-archived')
+
+@app.route("/news-archived")
 def news_archived():
-    return render_template('news-archived.html')
+    return render_template("news-archived.html")
 
-@app.route('/publication-reqs')
+
+@app.route("/publication-reqs")
 def publication_requirements():
-    return render_template('publication-reqs.html')
+    return render_template("publication-reqs.html")
 
-@app.route('/resources')
+
+@app.route("/resources")
 def resources():
-    return render_template('resources.html')
+    return render_template("resources.html")
 
 
-@app.route('/publications2')
+@app.route("/publications2")
 def publications2():
 
     # THE SERVER DOES NOT ALLOW US TO DOWNLOAD ANYTHING FROM GITHUB!!!!!!!
@@ -123,7 +156,9 @@ def publications2():
     # Install v2.0 from GIT: https://bibtexparser.readthedocs.io/en/main/install.html
     # library = bibtexparser.parse_string(bibtex_str)  # or bibtexparser.parse_file("my_file.bib")
 
-    library = bibtexparser.parse_file(os.path.join(app.config['STATIC_FOLDER'], 'mybib.bib'))
+    library = bibtexparser.parse_file(
+        os.path.join(app.config["STATIC_FOLDER"], "mybib.bib")
+    )
 
     # print(f"Parsed {len(library.blocks)} blocks, including:"
     #       f"\n\t{len(library.entries)} entries"
@@ -143,7 +178,6 @@ def publications2():
     first_field.key  # The field key, e.g. "author"
     first_field.value  # The field value, e.g. "Albert Einstein and Boris Johnson"
 
-
     publications = ""
     for entry in library.entries:
         publications += str(entry.fields_dict) + "<br><br><br><br>\n\n"
@@ -154,31 +188,29 @@ def publications2():
         # print(entry.fields_dict.keys())
         # print(entry.fields_dict["year"])
 
-
     # print(first_entry.key, first_entry.entry_type, first_entry.fields, first_entry.fields_dict, first_field.key, first_field.value)
 
     return publications
-@app.route('/publications')
+
+
+@app.route("/publications")
 def publications():
 
     pubs = dd(list)
-    publications = ''
+    publications = ""
 
     url = "https://raw.githubusercontent.com/cltl/bibliography/master/cltl.bib"
     response = requests.get(url)
     print(type(response.content))
 
-
-    filename = os.path.join(APP_STATIC, 'mybib.bib')
-    style = pybtex.plugin.find_plugin('pybtex.style.formatting', 'plain')()
-    backend = pybtex.plugin.find_plugin('pybtex.backends', 'html')()
+    filename = os.path.join(APP_STATIC, "mybib.bib")
+    style = pybtex.plugin.find_plugin("pybtex.style.formatting", "plain")()
+    backend = pybtex.plugin.find_plugin("pybtex.backends", "html")()
     parser = pybtex.database.input.bibtex.Parser()
 
-
-    with  open(os.path.join(app.config['STATIC_FOLDER'], 'mybib.bib'), 'rb') as f:
+    with open(os.path.join(app.config["STATIC_FOLDER"], "mybib.bib"), "rb") as f:
         contents = f.read().decode("UTF-8")
         data = parser.parse_string(contents)
-
 
     # contents = response.content.decode("UTF-8")
     # print(type(contents))
@@ -187,43 +219,59 @@ def publications():
 
     for e in data.entries:
 
-        authors = ''
+        authors = ""
         for author in data.entries[e].persons:
             for person in data.entries[e].persons[author]:
-                authors += str(person) + ' and '
+                authors += str(person) + " and "
 
         authors = authors[:-4]
 
-        year = data.entries[e].fields['year']
+        year = data.entries[e].fields["year"]
 
-        title = data.entries[e].fields['title'].replace('{', '').replace('}', '')
+        title = data.entries[e].fields["title"].replace("{", "").replace("}", "")
 
-        booktitle = data.entries[e].fields['booktitle'].replace('{', '').replace('}', '')
+        booktitle = (
+            data.entries[e].fields["booktitle"].replace("{", "").replace("}", "")
+        )
 
-        address = data.entries[e].fields['address']
+        address = data.entries[e].fields["address"]
 
-        pages = data.entries[e].fields['pages'] if 'pages' in data.entries[e].fields else None
+        pages = (
+            data.entries[e].fields["pages"]
+            if "pages" in data.entries[e].fields
+            else None
+        )
 
-        url = data.entries[e].fields['url'] if 'url' in data.entries[e].fields else None
+        url = data.entries[e].fields["url"] if "url" in data.entries[e].fields else None
 
-        publisher = data.entries[e].fields['publisher'] if 'publisher' in data.entries[e].fields else None
+        publisher = (
+            data.entries[e].fields["publisher"]
+            if "publisher" in data.entries[e].fields
+            else None
+        )
 
-        note = data.entries[e].fields['note'] if 'note' in data.entries[e].fields else None
-
+        note = (
+            data.entries[e].fields["note"] if "note" in data.entries[e].fields else None
+        )
 
         pub = """<b>{} ({}).</b> {}. <i>{}</i>. {} {}. {} {}""".format(
             authors,
             year,
             title,
             booktitle,
-            publisher+'.' if publisher else '',
+            publisher + "." if publisher else "",
             address,
-            note if note else '',
-            """<span class="small"><a target="_blank" href='"""+url+"""'>[pdf]</a></span>""" if url else '')
+            note if note else "",
+            (
+                """<span class="small"><a target="_blank" href='"""
+                + url
+                + """'>[pdf]</a></span>"""
+                if url
+                else ""
+            ),
+        )
 
-        
         pubs[year].append(pub)
-
 
     for year in reversed(sorted(pubs)):
 
@@ -232,5 +280,4 @@ def publications():
         for p in pubs[year]:
             publications += "<p>{}</p>".format(p)
 
-            
-    return render_template('publications.html', publications = publications)
+    return render_template("publications.html", publications=publications)
