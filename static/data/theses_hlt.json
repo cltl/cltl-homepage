@@ -1,5 +1,33 @@
 [
   {
+    "FirstName": "Fenna",
+    "LastName": "Berger",
+    "Title": "Automatic Detection of Recurrent Gestures in Dutch",
+    "Year": "2026",
+    "FileName": "thesis_Fenna_Berger_2026.pdf"
+  },
+  {
+    "FirstName": "Christina",
+    "LastName": "Karavida",
+    "Title": "Exploring Monotonic Reasoning in Neural Natural Language Inference",
+    "Year": "2026",
+    "FileName": "thesis_Christina_Karavida_2026.pdf"
+  },
+  {
+    "FirstName": "Lara",
+    "LastName": "Olders",
+    "Title": "Reasoning is to Humans as Association is to LLMs: Inside the Analogical Mechanisms of Large Language Models",
+    "Year": "2026",
+    "FileName": "thesis_Lara_Olders_2026.pdf"
+  },
+  {
+    "FirstName": "Manya",
+    "LastName": "Walavalkar",
+    "Title": "Named Entity Recognition and Classification and Concept Extraction in the Legal-Tax Domain",
+    "Year": "2026",
+    "FileName": "thesis_Manya_Walavalkar_2026.pdf"
+  },
+  {
     "FirstName": "Malihehassadat (Farnaz)",
     "LastName": "Bani Fatemi",
     "Year": 2025,
@@ -15,7 +43,7 @@
   },
   {
     "FirstName": "Szabolcs",
-    "LastName": "Pál",
+    "LastName": "P\u00e1l",
     "Year": 2025,
     "Title": "Investigation of Scalable Audio-based Speaker Identification in the context of Communicative Robots",
     "FileName": "thesis_Szabolcs_Pal_2025.pdf"
@@ -50,7 +78,7 @@
   },
   {
     "FirstName": "Mekselina",
-    "LastName": "Doğanç",
+    "LastName": "Do\u011fan\u00e7",
     "Year": 2023,
     "Title": "Automatic Generation of Personalized Counter Narratives Based on User Profile",
     "FileName": "thesis_Mekselina_Doganc_2023.pdf"
@@ -147,10 +175,10 @@
     "FileName": ""
   },
   {
-    "FirstName": "Søren K.",
+    "FirstName": "S\u00f8ren K.",
     "LastName": "Fomsgaard",
     "Year": 2021,
-    "Title": "In the eye of the storm with style – Investigating style features in the language of QAnon on Twitter",
+    "Title": "In the eye of the storm with style \u2013 Investigating style features in the language of QAnon on Twitter",
     "FileName": ""
   },
   {
@@ -168,7 +196,7 @@
     "FileName": ""
   },
   {
-    "FirstName": "András",
+    "FirstName": "Andr\u00e1s",
     "LastName": "Aponyi",
     "Year": 2020,
     "Title": "Estimating Translation Quality Using Distributed Representations of Words and Sentences",
@@ -183,7 +211,7 @@
   },
   {
     "FirstName": "Suzana",
-    "LastName": "Bašić",
+    "LastName": "Ba\u0161i\u0107",
     "Year": 2020,
     "Title": "Color as a Discriminative Property for Establishing Object Identity in Human-Robot Communication",
     "FileName": ""

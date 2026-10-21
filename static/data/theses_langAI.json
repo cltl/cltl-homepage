@@ -1,5 +1,96 @@
 [
   {
+    "FirstName": "Hannah",
+    "LastName": "Altgassen",
+    "Title": "Grammatical Gender Prediction of English Loanwords in German Using Transformer-Based Language Models",
+    "Year": "2026",
+    "FileName": "thesis_Hannah_Altgassen_2026.pdf"
+  },
+  {
+    "FirstName": "Manar",
+    "LastName": "Attar",
+    "Title": "Author Profiling Of Hate Speech Spreaders",
+    "Year": "2026",
+    "FileName": "thesis_Manar_Attar_2026.pdf"
+  },
+  {
+    "FirstName": "Ella",
+    "LastName": "Heinävaara",
+    "Title": "Evaluating Speech-to-IPA Models for Intelligibility Classification of L2 English Pronunciation",
+    "Year": "2026",
+    "FileName": "thesis_Ella_Heinävaara_2026.pdf"
+  },
+  {
+    "FirstName": "Keze",
+    "LastName": "Hu",
+    "Title": "Optimising Chain-of-Thought Reasoning for Cryptic Clue Solving Using LLMs as In-Context Teachers",
+    "Year": "2026",
+    "FileName": "thesis_Keze_Hu_2026.pdf"
+  },
+  {
+    "FirstName": "Bardia",
+    "LastName": "Kashani",
+    "Title": "Fact Verification in Case Law Documents: An Industry Use Case",
+    "Year": "2026",
+    "FileName": "thesis_Bardia_Kashani_2026.pdf"
+  },
+  {
+    "FirstName": "Vera",
+    "LastName": "Langeberg",
+    "Title": "The Impact of Int8 Embedding Quantization on High-Precision Information Extraction from Dutch Procurement Documents",
+    "Year": "2026",
+    "FileName": "thesis_Vera_Langeberg_2026.pdf"
+  },
+  {
+    "FirstName": "Marie",
+    "LastName": "Necker",
+    "Title": "He’s the Greatest Dancer: Detecting Linguistic Gender from Explicit Cues",
+    "Year": "2026",
+    "FileName": "thesis_Marie_Necker_2026.pdf"
+  },
+  {
+    "FirstName": "Carmen",
+    "LastName": "Popa",
+    "Title": "Beyond Goldfish Memory: What is Relevant in Long-Term Dialogue?",
+    "Year": "2026",
+    "FileName": "thesis_Carmen_Popa_2026.pdf"
+  },
+  {
+    "FirstName": "Rey",
+    "LastName": "Rashid",
+    "Title": "Distilling Reasoning: Fine-tuning Smaller Language Models on LLM Chain-of-Thought Traces for Cryptic Crossword Solving",
+    "Year": "2026",
+    "FileName": "thesis_Rey_Rashid_2026.pdf"
+  },
+  {
+    "FirstName": "Marit",
+    "LastName": "Rozendaal",
+    "Title": "Modelling Patient Functioning Over Time: Automated ICF Categorisation and Its Representation in an Event-Centred Knowledge Graph",
+    "Year": "2026",
+    "FileName": "thesis_Marit_Rozendaal_2026.pdf"
+  },
+  {
+    "FirstName": "Gianmarco",
+    "LastName": "Sapienza",
+    "Title": "Leveraging Generative LLMs and Encoder Models for Multi-Label Topic Classification of Dutch Citizens’ Reports in the Governance Domain",
+    "Year": "2026",
+    "FileName": "thesis_Gianmarco_Sapienza_2026.pdf"
+  },
+  {
+    "FirstName": "Sanne",
+    "LastName": "Wal",
+    "Title": "Syntax versus Semantics: Adapting the Microportraits Pipeline with Semantic Role Labeling",
+    "Year": "2026",
+    "FileName": "thesis_Sanne_Wal_2026.pdf"
+  },
+  {
+    "FirstName": "Masoumeh",
+    "LastName": "Zarnaghi",
+    "Title": "Evaluating Multimodal LLMs for Word-Level Intelligibility Classification and Phonetic Explanation",
+    "Year": "2026",
+    "FileName": "thesis_Masoumeh_Zarnaghi_2026.pdf"
+  },
+  {
     "FirstName": "Shutao",
     "LastName": "Chen",
     "Year": 2025,
